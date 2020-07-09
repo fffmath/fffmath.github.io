@@ -5,9 +5,9 @@
    */
   var dongmanImg = new Image();
   if (document.body.offsetWidth > 768) {
-    dongmanImg.src = 'https://api.btstu.cn/sjbz/?lx=fengjing&format=images&method=pc';
+    dongmanImg.src = 'https://api.btstu.cn/sjbz/?lx=dongman&format=images&method=pc';
   } else {
-    dongmanImg.src = 'https://api.btstu.cn/sjbz/?lx=fengjing&format=images&method=mobile';
+    dongmanImg.src = 'https://api.btstu.cn/sjbz/?lx=dongman&format=images&method=mobile';
   }
   var dongmanInterval = setInterval(function () {
     if (dongmanImg.complete) {
