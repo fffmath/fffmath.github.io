@@ -11411,7 +11411,7 @@ body:before {
 }
 @media screen and (max-width: 768px) {
   body:before {
-    background-image: url("http://api.btstu.cn/sjbz/api.php?lx=fengjing&format=images&method=mobile");
+    background-image: url("http://api.btstu.cn/sjbz/api.php?lx=dongman&format=images&method=mobile");
   }
 }
 body.ready:before {
