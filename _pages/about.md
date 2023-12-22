@@ -2,17 +2,16 @@
 layout: about
 title: about
 permalink: /
-description: A PhD student working on Lattice-based Cryptography & Zero-knowledge proof.
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: climbing.png
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>55 Zhongguancun East Road</p>
-    <p>Haidian District</p>
-    <p>Beijing, China</p>
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -20,9 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Now I am a Phd student in **Academy of Mathematics and Systems Science (AMSS)**. 
-I was previously educated in the **Chern Class (Honor Class)** at **Nankai University**, named after Shiing-Shen Chern, and obtained my bachelor's degree in 2022.
+Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-My research interests lie broadly in **cryptography and security**, especially Lattice-based Cryptography and Succinct Zero-Knowledge Proof.
+Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Here is my [Resume](https://www.fffmath.com/assets/pdf/mycv.pdf).
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
