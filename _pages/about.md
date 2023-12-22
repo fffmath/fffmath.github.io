@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: A PhD student working on Lattice-based Cryptography & Zero-knowledge proof.
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: A PhD student working on Lattice-based Cryptography & Zero-knowledge proof.
 
 profile:
   align: right
