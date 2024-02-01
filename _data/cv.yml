@@ -4,7 +4,7 @@
     - name: Full Name
       value: Yansong Feng
     - name: Date of Birth
-      value: 9th June 2001
+      value: 9th June, 2001
     - name: Languages
       value: English, Chinese
 
@@ -13,64 +13,28 @@
   contents:
     - title: PhD
       institution: Chinese Academy of Sciences (CAS), Beijing, China
-      year: Sept. 2022 - Current
+      year: Current
       description:
-        - Major: Applied Mathematics
-        - GPA: 3.76/4
-        - Courses: Cryptography, Error Correcting Code, Computational Algebraic Geometry, Computer Algebra
-    - title: Bachelor of Science
+        - <u>Major:</u>: Applied Mathematics
+        - <u>GPA:</u>: 3.76/4
+        - <u>Courses:</u>: Cryptography, Error Correcting Code, Computational Algebraic Geometry, Computer Algebra
+    - title: Bachelor
       institution: Nankai University, Tianjin, China
-      year: Sept. 2018 - Jun. 2022
+      year: 2022
       description:
-        - Major: Pure Mathematics and Applied Mathematics
-        - GPA: 3.56/4
-        - Courses: Differential Geometry, Differential Manifold, Representation Theory of Finite Groups, Dynamical System, Associative Algebra
+        - <u>Major:</u>: Pure Mathematics and Applied Mathematics
+        - <u>GPA:</u>: 3.56/4
+        - <u>Courses:</u>: Differential Geometry, Differential Manifold, Representation Theory of Finite Groups, Dynamical System, Associative Algebra
 
-- title: Experience
+- title: Selected Open Source Projects
   type: time_table
   contents:
-    - title: Lattice-Based Cryptography Seminar
-      institution: Beijing, China
-      year: Sept. 2022 - Jun. 2023
-      description:
-        - Instructor: Yanbin Pan
-        - Status: Completed the exercises in the notes of Oded Regev and accomplished one paper.
-        - Duties and Achievements:
-          - Read Regev's classical lecture notes.
-          - Accomplished one paper. This paper is about the Implicit Factorization Problem. We find a result on the general case which is accepted by SAC 2023, Canada.
-    - title: Volunteer at the Museum of Paleontology
-      institution: Beijing, China
-      year: Mar. 2023
-      description:
-        - Assist staff and help visitors at the Museum of Paleontology.
-    - title: Volunteer of Yuyuantan Park
-      institution: Beijing, China
-      year: Mar. 2023
-      description:
-        - Assist staff and help visitors at Yuyuantan Park.
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: Useful-Links
+    - title: <a href="https://link.fffmath.com">Useful-Links</a>
       year: 2023
-      description: It's a webpage designed to provide many useful links related to cryptography. [Link](https://link.fffmath.com)
-    - title: Identifying-Ideal-Lattice
+      description: It's a webpage designed to provide many useful links related to cryptography.
+    - title: <a href="https://github.com/fffmath/Identifying-Ideal-Lattice">Identifying-Ideal-Lattice</a>
       year: 2024
-      description: A toolkit for identifying whether the input lattice is an ideal lattice or not. [GitHub](https://github.com/fffmath/Identifying-Ideal-Lattice)
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: Nov. 2022
-      items: 
-        - First Prize in North Zone of The 7th National College Cryptomath Challenge
-    - year: Sept. 2020
-      items: 
-        - First Prize in Tianjin of Mathematical Competition for College Students
-    - year: Aug. 2017
-      items: 
-        - First Prize in Hebei Province of Middle School Mathematics Competition
+      description: A toolkit for identifying whether the input lattice is an ideal lattice or not.
 
 - title: Academic Interests
   type: nested_list
@@ -84,4 +48,4 @@
 - title: Other Interests
   type: list
   contents:
-    - Hobbies: Guitar, Running, Swimming
+    - <u>Hobbies:</u>: Guitar, Running, Swimming
