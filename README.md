@@ -10,12 +10,4 @@ Welcome to my personal website! This site is built using the [al-folio](https://
 - ❤️ I have a passion for music 🎵, running 🏃‍♀️, and dinos 🦕.
 - 📖 You can find more about me on my website.
 
-### Connect with Me
-
-- [Website](https://www.fffmath.com)
-- [CV](https://www.fffmath.com/file/mycv.pdf)
-- [Scholar](https://www.fffmath.com)
-- [Twitter](https://twitter.com/fffmath_crypto)
-- [Linkedin](https://www.www.fffmath.com)
-
 Enjoy exploring! 🚀
