@@ -15,16 +15,16 @@
       institution: Chinese Academy of Sciences (CAS), Beijing, China
       year: Current
       description:
-        - <u>Major:</u>: Applied Mathematics
-        - <u>GPA:</u>: 3.76/4
-        - <u>Courses:</u>: Cryptography, Error Correcting Code, Computational Algebraic Geometry, Computer Algebra
+        - <u>Major:</u> Applied Mathematics
+        - <u>GPA:</u> 3.76/4
+        - <u>Courses:</u> Cryptography, Error Correcting Code, Computational Algebraic Geometry, Computer Algebra
     - title: Bachelor
       institution: Nankai University, Tianjin, China
       year: 2022
       description:
-        - <u>Major:</u>: Pure Mathematics and Applied Mathematics
-        - <u>GPA:</u>: 3.56/4
-        - <u>Courses:</u>: Differential Geometry, Differential Manifold, Representation Theory of Finite Groups, Dynamical System, Associative Algebra
+        - <u>Major:</u> Pure Mathematics and Applied Mathematics
+        - <u>GPA:</u> 3.56/4
+        - <u>Courses:</u> Differential Geometry, Differential Manifold, Representation Theory of Finite Groups, Dynamical System, Associative Algebra
 
 - title: Selected Open Source Projects
   type: time_table
@@ -48,4 +48,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u>: Guitar, Running, Swimming
+    - <u>Hobbies:</u> Guitar, Running, Swimming
