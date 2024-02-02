@@ -6,7 +6,7 @@ subtitle: A PhD student working on Lattice-based Cryptography & Zero-knowledge p
 
 profile:
   align: right
-  image: climbing.png
+  image: climbing.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>55 Zhongguancun East Road</p>
