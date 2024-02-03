@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: Github repositories containing my contribution.
 nav: false
 nav_order: 3
 ---
 
-## GitHub users
+## GitHub Stats
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

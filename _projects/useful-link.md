@@ -5,7 +5,7 @@ description: It's a webpage designed to provide a curated list of useful externa
 img: https://fffmath-img.oss-cn-beijing.aliyuncs.com/img/useful-link-800-600.png
 redirect: https://link.fffmath.com
 importance: 1
-category: work
+category: cryptography
 ---
 
 Every project has a beautiful feature showcase page.
