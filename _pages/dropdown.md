@@ -1,16 +1,13 @@
 ---
 layout: page
-title: submenus
+title: Miscellaneous 
 nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: cv
-      permalink: /cv/ 
-    - title: divider
-    - title: projects
+    - title: Projects
       permalink: /projects/
-    - title: repositories
+    - title: Repositories
       permalink: /repositories/    
 
 ---

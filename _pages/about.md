@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: A PhD student working on Lattice-based Cryptography & Zero-knowledge proof.
 
