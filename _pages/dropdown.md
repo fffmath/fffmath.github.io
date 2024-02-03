@@ -9,5 +9,4 @@ children:
       permalink: /projects/
     - title: Repositories
       permalink: /repositories/    
-
 ---
