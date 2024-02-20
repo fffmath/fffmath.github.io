@@ -1,6 +1,19 @@
 ---
 ---
-
+@misc{CFP24,
+      title={Embedding Integer Lattices as Ideals into  Polynomial Rings}, 
+      author={Yihang Cheng and Yansong Feng and Yanbin Pan},
+      year={2024},
+      eprint={2307.12497},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      abstract={Many lattice-based crypstosystems employ ideal lattices for high efficiency. However, the additional algebraic structure of ideal lattices usually makes us worry about the security, and it is widely believed that the algebraic structure will help us solve the hard problems in ideal lattices more efficiently. In this paper, we study the additional algebraic structure of ideal lattices further and find that a given ideal lattice in a polynomial ring can be embedded as  an ideal into infinitely many different polynomial rings by the coefficient embedding. We design an algorithm to verify whether a given full-rank lattice in $\mathbb{Z}^n$ is an ideal lattice and output all the polynomial rings that the given lattice can be embedded into as an ideal with time complexity $\mathcal{O}(n^3B(B+\log n)$, where $n$ is the dimension of the lattice and $B$ is the upper bound of the bit length of the entries of the input lattice basis. We would like to point out that Ding and Lindner proposed an algorithm for identifying ideal lattices and outputting a single polynomial ring that the input lattice can be embedded into with time complexity $\mathcal{O}(n^5B^2)$ in 2007. However, we find a flaw in Ding and Lindner's algorithm that causes some ideal lattices can't be identified by their algorithm.},
+      selected = {true},
+      pdf = {https://arxiv.org/pdf/2307.12497.pdf}, 
+      code = {https://github.com/fffmath/Identifying-Ideal-Lattice}, 
+      abbr = {Embedding},
+      bibtex_show={true}
+}
 @inproceedings{FNP23,
   author       = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
   title        = {Generalized Implicit Factorization Problem},
@@ -9,23 +22,10 @@
   series       = {Lecture Notes in Computer Science},
   publisher    = {Springer},
   year         = {2023},
+  abstract = {The Implicit Factorization Problem (IFP) was first introduced by May and Ritzenhofen at PKC'09, which concerns the factorization of two RSA moduli $N_1=p_1q_1$ and $N_2=p_2q_2$, where $p_1$ and $p_2$ share a certain consecutive number of least significant bits. Since its introduction, many different variants  of IFP have been considered, such as the cases where $p_1$ and $p_2$ share most significant bits or middle bits at the same positions. In this paper, we consider a more generalized case of IFP,  in which the shared consecutive bits can be located  at \textit{any} positions in each prime, not necessarily required to be located at the same positions as before. We propose a lattice-based algorithm to solve this problem  under specific conditions, and also provide some experimental results to verify our analysis.},
   selected = {true}, 
   pdf = {https://eprint.iacr.org/2023/1562.pdf}, 
   code = {https://github.com/fffmath/gifp}, 
   abbr = {GIFP},
   bibtex_show={true}
-}
-
-@misc{CFP24,
-      title={Embedding Integer Lattices as Ideals into  Polynomial Rings}, 
-      author={Yihang Cheng and Yansong Feng and Yanbin Pan},
-      year={2024},
-      eprint={2307.12497},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      selected = {true},
-      pdf = {https://arxiv.org/pdf/2307.12497.pdf}, 
-      code = {https://github.com/fffmath/Identifying-Ideal-Lattice}, 
-      abbr = {Embedding},
-      bibtex_show={true}
 }
