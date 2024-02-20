@@ -28,3 +28,7 @@ Welcome to the ["Useful Links for Crypto"](https://link.fffmath.com) webpage! Th
 - Curated collection of external links related to cryptography.
 - Links to crypto research centers, blogs, courses, and personal homepages (with their dblp link).
 - Cute design with interactive elements.
+
+---
+
+If you enjoy using this webpage, please give it a star at [Github](https://github.com/fffmath/useful-link)! ⭐️
