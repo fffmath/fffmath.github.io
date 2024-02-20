@@ -5,8 +5,8 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: Projects
-      permalink: /projects/
+    - title: Conferences
+      permalink: /confs/
     - title: Repositories
       permalink: /repositories/    
 ---

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: A growing collection of my cool projects.
+title: Conferences
+permalink: /confs/
+description: Conferences attended.
 nav: false
 nav_order: 2
-display_categories: [cryptography, fun]
+display_categories: [2023, 2024]
 horizontal: false
 ---
 
