@@ -2,7 +2,7 @@
 layout: page
 title: Conferences
 permalink: /confs/
-description: Some of the conferences I attended by categories in reversed chronological order.
+description: Some pictures when I attended these conferences by categories in reversed chronological order.
 nav: false
 nav_order: 2
 display_categories: [2024, 2023]

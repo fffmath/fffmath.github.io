@@ -7,12 +7,12 @@ dropdown: true
 children:
     - title: My Notes
       permalink: https://notes.fffmath.com
-    - title: My Repos
+    - title: Repositories
       permalink: /repositories/   
     - title: divider
     - title: Useful Links
       permalink: https://link.fffmath.com
     - title: divider
-    - title: Attended Confs
+    - title: Gallery
       permalink: /confs/
 ---
