@@ -1,5 +1,15 @@
 ---
 ---
+@misc{FNP24,
+  title={Combee: Provable Automated Coppersmith for Linear Equations and its Applications}, 
+  author={Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
+  year={2024},
+  abstract={At Asiacrypt'23,  Meers and  Nowakowski proposed a new automated method called Automated Coppersmith, which automatically selects a family of polynomials to construct lattices with good properties and then finds the small roots of the given polynomial equations. However, their strategy arises a new heuristic assumption. In this paper, we give a provable vision on linear equation systems, which is widely used in cryptanalysis such as modular multivariate linear equations by Herrmann and May (Asiacrypt’08) and modular univariate linear equations by Cohn and Heninger (ANTS’12). Besides, we introduce new variables to Automated Coppersmith that can be optimized to better utilize the properties of the origin polynomial. Finally, we apply this method to analyze the Generalized Extended Implicit Factorization Problem (G-EIFP), a generalization of  the Extended Implicit Factorization Problem (EIFP), even when the shared contiguous bits are arbitrary.},
+  selected = {false},
+  abbr = {Combee-ifp},
+  preview = {combee.png},
+  bibtex_show={true}
+}
 @misc{CFP24,
   title={Embedding Integer Lattices as Ideals into  Polynomial Rings}, 
   author={Yihang Cheng and Yansong Feng and Yanbin Pan},
@@ -14,7 +24,18 @@
   abbr = {Embedding},
   bibtex_show={true}
 }
-@inproceedings{FNP23,
+
+@misc{FNP23b,
+  title={Partial Prime Factor Exposure Attacks on Some RSA Variants}, 
+  author={Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
+  year={2023},
+  abstract={In this paper, we consider five variants of the RSA cryptosystem, where the modulus is $N=pq$, and the public key $e$ and the secret key $d$ satisfy $ed-k(p^2+p+1)(q^2+q+1)=1$ or $ed-k(p^2-1)(q^2-1)=1$. Our results show that if a certain amount of the most significant bits of $p$ are known so that $|p-p_0|=N^\beta$ with a known $p_0$, then one can factor the RSA modulus with a better bound than low private exponent attacks. We also present the experimental results to verify our analysis.},
+  selected = {false},
+  abbr = {PPFE Attack},
+  bibtex_show={true}
+}
+
+@inproceedings{FNP23a,
   author       = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
   title        = {Generalized Implicit Factorization Problem},
   booktitle    = {Selected Areas in Cryptography - 30th International Conference},
@@ -38,8 +59,7 @@
   primaryClass={cs.CR},
   abstract={Outsourcing computation is a desired approach for IoT (Internet of Things) devices to transfer their burdens of heavy computations to those nearby, resource-abundant cloud servers. Recently, Rangasamy presented a passive attack against two outsourcing algorithms proposed by Zhang et al. for solving quadratic congruence equations, which is widely used in IoT applications. Furthermore, he also proposed a modified algorithm to fix these schemes and claimed that his algorithm was correct and enabled secure and verifiable delegation of solving quadratic congruence equations in IoTs. However, we show that Rangasamy's modified algorithm has a flaw which makes it incorrect and also propose some further attacks to break the security claim, even when the flaw has been corrected.},
   selected = {false},
-  pdf = {https://arxiv.org/abs/2203.10751}, 
-  code = {https://github.com/fffmath/Identifying-Ideal-Lattice}, 
+  pdf = {https://arxiv.org/pdf/2203.10751.pdf}, 
   abbr = {Rangasamy},
   bibtex_show={true}
 }
