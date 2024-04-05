@@ -2,8 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: A PhD student working on Lattice-based Cryptography & Zero-knowledge proof.
-
+subtitle: >
+  <p>(In Chinese: <span lang = 'zh-Hans'> 冯岩松 </span>, <a href="" onclick="$('#pronounce').toggle(); return false;">how to pronounce</a>)</p>
+  <div id="pronounce" style="display:none;" class="alert">
+      <audio controls>
+          <source src="assets/audio/yansong.mp3" type="audio/mpeg">
+      </audio>
+  </div>
 profile:
   align: right
   image: climbing.jpg

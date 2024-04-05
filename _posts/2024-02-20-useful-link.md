@@ -1,6 +1,6 @@
 ---
 layout: post
-title: useful-Link
+title: Useful Links
 date: 2024-02-20 08:00:00
 description: It's a webpage designed to provide a curated list of useful external links related to cryptography
 tags: lattice zkp
