@@ -75,10 +75,10 @@ Later, I also went to Hong Kong and Macau.
 When I was on the airplane, I flew over a very beautiful place.
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/confs/2023/asiacrypt/flight.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/confs/2023/asiacrypt/flight.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/confs/2023/asiacrypt/flight_back.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/confs/2023/asiacrypt/flight_back.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
