@@ -9,13 +9,17 @@ thumbnail: assets/img/confs/2023/asiacrypt/iacr.png
 
 This is my first time going to the South of China, and I'm really looking forward to the delicious food, scenery, and warm weather in Guangzhou.
 
+When I was on the airplane, I flew over a very beautiful place.
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/confs/2023/asiacrypt/flight.png" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/confs/2023/asiacrypt/flight_back.png" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
-   When I was on the airplane, I flew over a very beautiful place.
+   The scenery from the airplane during the round trip.
 </div>
 
 I'm staying near Guangzhou Railway Station this time, and there's a delicious breakfast place nearby.
@@ -35,7 +39,13 @@ I'm staying near Guangzhou Railway Station this time, and there's a delicious br
 One afternoon, I went to Foshan City, where there is the Wong Fei-hung Memorial Hall.
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/confs/2023/asiacrypt/foshan.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/confs/2023/asiacrypt/lion.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/confs/2023/asiacrypt/yewen.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
     </div>
 </div>
 <div class="caption">
@@ -69,5 +79,5 @@ Later, I also went to Hong Kong and Macau.
     </div>
 </div>
 <div class="caption">
-    It's very warm here.
+    Warm weather.
 </div>
