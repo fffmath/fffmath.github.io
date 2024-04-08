@@ -19,6 +19,6 @@ If you're curious to learn more about me, here are some places you can explore:
 
 - Access a curated collection of useful links at [https://link.fffmath.com](https://link.fffmath.com).
 
-- Take a peek at some memorable moments from conferences I've attended [here](../confs).
+- Take a peek at some memorable moments from conferences I've attended [here](../blog/category/confs).
 
 Feel free to click around and get to know me better through these different facets of my life!
