@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-27-5
+date: 2024-5-27
 inline: true
 ---
 
-I will visit HK PolyU this summer and work on ZKP.
+I will visit PolyU in HongKong this summer and work on ZKP.
