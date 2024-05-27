@@ -21,4 +21,10 @@ If you're curious to learn more about me, here are some places you can explore:
 
 - Take a peek at some memorable moments from conferences I've attended [here](../blog/category/confs).
 
+And I have also given some talks, as listed below.
+
+1. Generalized Implicit Factorization Problem [slides](assets/slides/gifp.pdf)
+    - \[August 18, 2023\] Selected Areas in Cryptography 2023, University of New Brunswick
+    - \[December 24, 2023\] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences
+
 Feel free to click around and get to know me better through these different facets of my life!
