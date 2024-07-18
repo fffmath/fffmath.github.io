@@ -1,7 +1,7 @@
 ---
 ---
-@misc{FNP24b,
-  title={Partial Key Exposure Attack against RSA With Small Public Exponent}, 
+@misc{fengSmall2024,
+  title={Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA}, 
   author = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
   year={2024},
   abstract={Let $(N,e)$ be a public key of the RSA cryptosystem, and $(N,d)$ be the corresponding private key. In practice, we usually choose a small $e$ for encryption. In this paper, we improve Partial Key Exposure attacks on standard RSA on secret exponents $d$ with small public exponent $e$. Compared to previous results, we reduced it by $\log_N(e)$ bits. We turn it into solving univariate modular polynomials, so we don't rely on the assumptions of the Coppersmith method (for multivariate polynomials). Moreover, our experiments show that for $1024$-bit $N$, our algorithm can achieve the theoretical bound on a personal computer.},
@@ -10,7 +10,7 @@
   abbr = {PKE Attack},
   preview={comparsionPKEA.png}
 }
-@misc{FNP24a,
+@misc{fengNew2024,
   title={New Results for Coppersmith's Method from the Perspective of Sumsets Theory}, 
   author = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
   year={2024},
@@ -20,7 +20,17 @@
   bibtex_show={true},
   preview={copperajah.png}
 }
-@inproceedings{CFP24,
+@misc{fengSolving2024,
+  title={Solving Modular Linear Equations via Automated Coppersmith and its Applications}, 
+  author = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
+  year={2024},
+  abstract={At Asiacrypt'23, Meers and Nowakowski introduced a new automated method called Automated Coppersmith, which can be viewed as a generalization of Jochemsz-May Strategy for systems of polynomial equations. It selects monomials first, then constructs polynomials to construct the lattice in Coppersmith method. However, their strategy arises a new heuristic assumption. In this paper, We try to eliminate this heuristic assumption on linear equation systems. Finally, we apply this method to analyze the Generalized Extended Implicit Factorization Problem (G-EIFP), a generalization of  the Extended Implicit Factorization Problem (EIFP), even when the shared contiguous bits are arbitrary.},
+  selected = {true},
+  bibtex_show={true},
+  abbr = {Combee},
+  preview={combee.png}
+}
+@inproceedings{chengEmbedding2024,
   author={Yihang Cheng and Yansong Feng and Yanbin Pan},
   title={Embedding Integer Lattices as Ideals into  Polynomial Rings}, 
   booktitle    = {International Symposium on Symbolic and Algebraic Computation - 49th International Conference},
@@ -33,7 +43,7 @@
   abbr = {Embedding},
   bibtex_show={true}
 }
-@article{FNP23b,
+@article{fengPartial2024,
   abbr = {PPFE Attack},
   bibtex_show={true},
   title = {Partial Prime Factor Exposure Attacks on Some RSA Variants},
@@ -46,7 +56,7 @@
   code = {https://github.com/fffmath/ppfe-attack}
 }
 
-@inproceedings{FNP23a,
+@inproceedings{fengGeneralized2023,
   author       = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
   title        = {Generalized Implicit Factorization Problem},
   booktitle    = {Selected Areas in Cryptography - 30th International Conference},
@@ -61,7 +71,7 @@
   bibtex_show={true}
 }
 
-@misc{LFP22,
+@misc{liRangasamy2022,
   title={On Rangasamy's outsourcing algorithm for solving quadratic congruence equations}, 
   author={Xiulan Li and Yansong Feng and Yanbin Pan},
   year={2022},
@@ -69,7 +79,7 @@
   archivePrefix={arXiv},
   primaryClass={cs.CR},
   abstract={Outsourcing computation is a desired approach for IoT (Internet of Things) devices to transfer their burdens of heavy computations to those nearby, resource-abundant cloud servers. Recently, Rangasamy presented a passive attack against two outsourcing algorithms proposed by Zhang et al. for solving quadratic congruence equations, which is widely used in IoT applications. Furthermore, he also proposed a modified algorithm to fix these schemes and claimed that his algorithm was correct and enabled secure and verifiable delegation of solving quadratic congruence equations in IoTs. However, we show that Rangasamy's modified algorithm has a flaw which makes it incorrect and also propose some further attacks to break the security claim, even when the flaw has been corrected.},
-  selected = {false},
+  selected = {True},
   pdf = {https://arxiv.org/pdf/2203.10751.pdf}, 
   abbr = {Rangasamy},
   bibtex_show={true}
