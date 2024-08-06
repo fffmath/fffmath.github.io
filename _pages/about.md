@@ -24,9 +24,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Now I am a Phd student in **Academy of Mathematics and Systems Science (AMSS)**. 
-I was previously educated in the **Chern Class (Honor Class)** at **Nankai University**, named after Shiing-Shen Chern, and obtained my bachelor's degree in 2022.
+I am a Phd student in **Academy of Mathematics and Systems Science (AMSS)**, advised by Prof. [Yanbin Pan(https://mmrc.iss.ac.cn/~yanbinpan/). In 2022, I obtained my bachelor's degree in the **Chern Class** at **Nankai University**, a program named after the renowned mathematician Shiing-Shen Chern.
 
 My research interests lie broadly in **cryptography and security**, especially Lattice-based Cryptography and Succinct Zero-Knowledge Proof.
-
-Here is my [Resume](https://www.fffmath.com/assets/pdf/mycv.pdf).
