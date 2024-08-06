@@ -23,7 +23,7 @@ And I have also given some talks, as listed below.
 
 1. Generalized Implicit Factorization Problem [[Slides]](../assets/slides/gifp.pdf)
 
-    - [August 18, 2023] 30th Selected Areas in Cryptography, University of New Brunswick, Canada
     - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China
+    - [August 18, 2023] 30th Selected Areas in Cryptography, University of New Brunswick, Canada
 
-Feel free to click around and get to know me better!
+Feel free to click!
