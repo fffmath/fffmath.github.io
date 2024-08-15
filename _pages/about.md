@@ -24,6 +24,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Phd student in **Academy of Mathematics and Systems Science (AMSS)**, advised by Prof. [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). In 2022, I obtained my bachelor's degree in the **Chern Class** at **Nankai University**, a program named after the renowned mathematician Shiing-Shen Chern.
+I am currently pursuing my PhD at the **Academy of Mathematics and Systems Science (AMSS)**, under the guidance of [Prof. Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). In 2022, I earned my bachelor’s degree in Mathematics from Nankai University.
 
-My research interests lie broadly in **cryptography and security**, especially Lattice-based Cryptography and Succinct Zero-Knowledge Proof.
+My research interests are primarily centered around **cryptography and security**, particularly in the domains of Lattice-based Cryptography and Succinct Zero-Knowledge Proofs.
+
+I am passionate about exploring two types of challenges:
+
+- Solving cryptographic problems using elegant mathematical theory.
+- Identifying interesting, meaningful and thought-provoking applications in real-world scenarios.
+
