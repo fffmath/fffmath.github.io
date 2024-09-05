@@ -9,15 +9,15 @@ nav_order: 3
 
 Hey there!
 
-- Click [[Link]](../cv) to see my cv in HTML version or [[Link]](https://www.fffmath.com/assets/pdf/mycv.pdf) for the PDF file.
+- [[CV]](https://www.fffmath.com/assets/pdf/mycv.pdf) My CV My CV in PDF format (or [[HTML]](../cv) in HTML version).
   
-- [[Link]](../blog) Take a look at my blog for insights into my thoughts and experiences.
+- [[Blog]](../blog) Take a look at my blog for insights into my thoughts and experiences.
   
 - [[MyNotes]](https://notes.fffmath.com) My notes on various topics.
 
 - [[Useful-Link]](https://link.fffmath.com) A cute website contains many useful links.
 
-- [[Link]](../blog/category/confs) Some memorable moments from conferences I've attended.
+- [[Pictures]](../blog/category/confs) Some memorable moments from conferences I've attended.
 
 And I have also given some talks, as listed below.
 
