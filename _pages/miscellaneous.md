@@ -11,19 +11,17 @@ Hey there!
 
 - Click [[Link]](../cv) to see my cv in HTML version or [[Link]](https://www.fffmath.com/assets/pdf/mycv.pdf) for the PDF file.
   
-- Take a look at my blog [[Link]](../blog) for insights into my thoughts and experiences.
+- [[Link]](../blog) Take a look at my blog for insights into my thoughts and experiences.
   
-- My notes on various topics at [[MyNotes]](https://notes.fffmath.com).
+- [[MyNotes]](https://notes.fffmath.com) My notes on various topics.
 
-- A cute website contains many useful links at [[Useful-Link]](https://link.fffmath.com).
+- [[Useful-Link]](https://link.fffmath.com) A cute website contains many useful links.
 
-- Some memorable moments from conferences I've attended [[Link]](../blog/category/confs).
+- [[Link]](../blog/category/confs) Some memorable moments from conferences I've attended.
 
 And I have also given some talks, as listed below.
 
-1. Generalized Implicit Factorization Problem [[Slides]](../assets/slides/gifp.pdf)
+- Generalized Implicit Factorization Problem [[Slides]](../assets/slides/gifp.pdf)
 
     - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China
     - [August 18, 2023] 30th Selected Areas in Cryptography, University of New Brunswick, Canada
-
-Feel free to click!
