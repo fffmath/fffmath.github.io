@@ -6,17 +6,18 @@
   year={2024},
   abstract={It is well known that the best small private exponent attack against RSA is that when the private exponent $d < N^{0.292}$, one can factor the  RSA modulus $N = pq$. However, the bound $N^{0.292}$ is very difficult to achieve directly since we need to deal with some lattice with very high dimension, which seems infeasible by now. Recently, Li et al. proposed a practical attack that can solve cases when $d$ approaches $N^{0.292}$ within a month for $1024$ bit $N$. In this paper, we propose an improved practical small private exponent attack by enumerating the most significant bits of $p + q$. Together with some skills in implementations, we can also achieve the bound $N^{0.292}$, but with significantly less time compared to previous work.},
   selected = {false},
-  bibtex_show={true},
+  bibtex_show={false},
   pdf = {https://eprint.iacr.org/2024/1331.pdf}, 
   abbr = {Two-Step Attack},
 }
-@misc{feng2024small,
+@article{feng2024small,
   title={Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA}, 
   author = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
+  journal={CIC}
   year={2024},
   abstract={Let $(N,e)$ be a public key of the RSA cryptosystem, and $(N,d)$ be the corresponding private key. In practice, we usually choose a small $e$ for encryption. In this paper, we improve Partial Key Exposure attacks on standard RSA on secret exponents $d$ with small public exponent $e$. Compared to previous results, we reduced it by $\log_N(e)$ bits. We turn it into solving univariate modular polynomials, so we don't rely on the assumptions of the Coppersmith method (for multivariate polynomials). Moreover, our experiments show that for $1024$-bit $N$, our algorithm can achieve the theoretical bound on a personal computer.},
  selected = {true},
-  bibtex_show={true},
+  bibtex_show={false},
   abbr = {PKE Attack},
   pdf = {https://eprint.iacr.org/2024/1329.pdf}, 
   code = {https://github.com/fffmath/MSBsOfPrivateKeyAttack},
@@ -28,7 +29,7 @@
   year         = {2024},
   selected = {false}, 
   abbr = {👌: \mathcal\{O\}_K},
-  bibtex_show={true}
+  bibtex_show={false}
 }
 @misc{feng2024newton,
   title={Newton Polytope-Based Strategy for Finding
@@ -37,8 +38,8 @@ Roots of Multivariate Polynomials},
   year={2024},
   abstract={Coppersmith's method, combined with the  Jochemsz-May strategy, is widely used to find the small roots of multivariate polynomials for cryptanalysis. At Asiacrypt'23, Meers and Nowakowski improved the Jochemsz-May strategy from a single polynomial equation to a system of polynomial equations and proposed a new method, called Automated Coppersmith. Note that it is typically a tedious and non-trivial task to determine asymptotic upper bounds for Coppersmith's method and manual analysis has to be performed anew when a new set of polynomials is considered. By making certain heuristic assumption, Meers and Nowakowski showed that the bound can be obtained using Lagrange interpolation with the computer, but it is still time-consuming. Moreover, we find that sometimes the interpolation method may get stuck in local convergence, which will result in an incorrect bound when a natural termination strategy is employed in the method. In this paper, we revisit the Jochemsz-May strategy as well as the work of Meers and Nowakowski and point out that the bound can be obtained by calculating the leading coefficient of some Hilbert function, which is exactly the volume of the corresponding Newton polytope. To this end, we introduce the concept of Sumsets theory and propose a series of related results and algorithms. Compared with the Automated Coppersmith, we overcome the issue of getting stuck in local convergence and directly eliminate the time-consuming calculation for $f^m$ in Automated Coppersmith when $m$ is large, which brings a 1000x$\sim$1200x improvement in running time for some polynomials in our experiment. Additionally, our new method offers a new perspective to understand Automated Coppersmith, thus providing proof of Meers and Nowakowski's Heuristic 2 for the system of a single polynomial.},
   selected = {true},
-  abbr = {Copperajah},
-  bibtex_show={true},
+  abbr = {Wombat},
+  bibtex_show={false},
   pdf = {https://eprint.iacr.org/2024/1330.pdf}, 
   preview={wombat.png}
 }
@@ -48,26 +49,25 @@ Roots of Multivariate Polynomials},
   year={2024},
   abstract={At Asiacrypt'23, Meers and Nowakowski introduced a new automated method called Automated Coppersmith, which can be viewed as a generalization of Jochemsz-May Strategy for systems of polynomial equations. It selects monomials first, then constructs polynomials to construct the lattice in Coppersmith method. However, their strategy arises a new heuristic assumption. In this paper, We try to eliminate this heuristic assumption on linear equation systems. Finally, we apply this method to analyze the Generalized Extended Implicit Factorization Problem (G-EIFP), a generalization of  the Extended Implicit Factorization Problem (EIFP), even when the shared contiguous bits are arbitrary.},
   selected = {false},
-  bibtex_show={true},
+  bibtex_show={false},
   abbr = {Combee},
   preview={combee.png}
 }
-@inproceedings{cheng2024embedding,
+@article{cheng2024embedding,
   author={Yihang Cheng and Yansong Feng and Yanbin Pan},
   title={Embedding Integer Lattices as Ideals into  Polynomial Rings}, 
-  booktitle    = {International Symposium on Symbolic and Algebraic Computation - 49th International Conference},
-  publisher    = {{ACM}},
+  journal={ISSAC},
   year         = {2024},
   abstract={Many lattice-based crypstosystems employ ideal lattices for high efficiency. However, the additional algebraic structure of ideal lattices usually makes us worry about the security, and it is widely believed that the algebraic structure will help us solve the hard problems in ideal lattices more efficiently. In this paper, we study the additional algebraic structure of ideal lattices further and find that a given ideal lattice in a polynomial ring can be embedded as  an ideal into infinitely many different polynomial rings by the coefficient embedding. We design an algorithm to verify whether a given full-rank lattice in $\mathbb{Z}^n$ is an ideal lattice and output all the polynomial rings that the given lattice can be embedded into as an ideal with time complexity {$\mathcal{O}(n^3B(B+\log n)$}, where $n$ is the dimension of the lattice and $B$ is the upper bound of the bit length of the entries of the input lattice basis. We would like to point out that Ding and Lindner proposed an algorithm for identifying ideal lattices and outputting a single polynomial ring that the input lattice can be embedded into with time complexity $\mathcal{O}(n^5B^2)$ in 2007. However, we find a flaw in Ding and Lindner's algorithm that causes some ideal lattices can't be identified by their algorithm.},
   selected = {true}, 
   pdf = {https://eprint.iacr.org/2024/1041.pdf}, 
   code = {https://github.com/fffmath/Identifying-Ideal-Lattice}, 
   abbr = {Embedding},
-  bibtex_show={true}
+  bibtex_show={false}
 }
 @article{feng2024partial,
   abbr = {PPFE Attack},
-  bibtex_show={true},
+  bibtex_show={false},
   title = {Partial Prime Factor Exposure Attacks on Some RSA Variants},
   journal = {Theoretical Computer Science},
   year = {2024},
@@ -78,19 +78,17 @@ Roots of Multivariate Polynomials},
   code = {https://github.com/fffmath/ppfe-attack}
 }
 
-@inproceedings{feng2023generalized,
+@article{feng2023generalized,
   author       = {Yansong Feng and Abderrahmane Nitaj and Yanbin Pan},
   title        = {Generalized Implicit Factorization Problem},
-  booktitle    = {Selected Areas in Cryptography - 30th International Conference},
-  series       = {Lecture Notes in Computer Science},
-  publisher    = {Springer},
+  journal     = {SAC},
   year         = {2023},
   abstract = {The Implicit Factorization Problem (IFP) was first introduced by May and Ritzenhofen at PKC'09, which concerns the factorization of two RSA moduli {$N_1=p_1q_1$} and {$N_2=p_2q_2$}, where {$p_1$} and {$p_2$} share a certain consecutive number of least significant bits. Since its introduction, many different variants  of IFP have been considered, such as the cases where $p_1$ and $p_2$ share most significant bits or middle bits at the same positions. In this paper, we consider a more generalized case of IFP,  in which the shared consecutive bits can be located  at {\textit{any}} positions in each prime, not necessarily required to be located at the same positions as before. We propose a lattice-based algorithm to solve this problem  under specific conditions, and also provide some experimental results to verify our analysis.},
   selected = {true}, 
   pdf = {https://eprint.iacr.org/2023/1562.pdf}, 
   code = {https://github.com/fffmath/gifp}, 
   abbr = {GIFP},
-  bibtex_show={true}
+  bibtex_show={false}
 }
 
 @misc{li2022rangasamy,
@@ -104,5 +102,5 @@ Roots of Multivariate Polynomials},
   selected = {false},
   pdf = {https://arxiv.org/pdf/2203.10751.pdf}, 
   abbr = {Rangasamy},
-  bibtex_show={true}
+  bibtex_show={false}
 }
