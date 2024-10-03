@@ -23,4 +23,6 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Now I am a first-year PhD student at the **Academy of Mathematics and Systems Science (AMSS)**, under the guidance of [Prof. Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests lie in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**, where I am currently delving into both the underlying mathematical theory and their real-world applications.
+Now I am a first-year PhD student under the guidance of [Prof. Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests lie in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**, where I am currently delving into both the underlying mathematical theory and their real-world applications.
+
+Currently, I am visiting the Crypto Group in Aarhus University from October 2024 to October 2025, hosted by Diego F. Aranha.
