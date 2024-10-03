@@ -23,6 +23,4 @@ latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I am currently pursuing my PhD at the **Academy of Mathematics and Systems Science (AMSS)**, under the guidance of [Prof. Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). In 2022, I earned my bachelor’s degree in Mathematics from Nankai University.
-
-Now I am working on **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**.
+Now I am a first-year PhD student at the **Academy of Mathematics and Systems Science (AMSS)**, under the guidance of [Prof. Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests lie in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**, where I am currently delving into both the underlying mathematical theory and their real-world applications.
