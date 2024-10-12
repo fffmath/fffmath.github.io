@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://sihangpu.uk"
+baseURL = "https://www.fffmath.com"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
@@ -36,15 +36,10 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   favicon = "img/favicon.png"
 
-  # These "images" are used for the structured data templates. This will show up, when
-  # services like Twitter or Slack want to generate a preview of a link to your site.
-
-  images = ["images/share.png"]
-
   # Another "title" :-). This one is used as the site_name on the Hugo's internal
   # opengraph structured data template.
 
-  title = "Hugo ʕ•ᴥ•ʔ Bear"
+  title = "Yansong Feng『冯岩松』"
 
 
   # Hide the footer or not
