@@ -1,6 +1,5 @@
 # Welcome to my homepage!
 
-```
 ### Hey, guys 👋
 
 - ❤️ I have a passion for music 🎵, running 🏃‍♀️, and dinos 🦕.
