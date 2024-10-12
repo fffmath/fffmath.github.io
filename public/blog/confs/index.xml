@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yansong Feng『冯岩松』</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Yansong Feng『冯岩松』</description>
+    <title>Confs on Yansong Feng『冯岩松』</title>
+    <link>http://localhost:1313/blog/confs/</link>
+    <description>Recent content in Confs on Yansong Feng『冯岩松』</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Yansong Feng</copyright>
     <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/confs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asiacrypt 2023</title>
       <link>http://localhost:1313/asiacrypt-2023/</link>
@@ -22,13 +22,6 @@
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/sac-2023/</guid>
       <description>&lt;p&gt;Due to visa reasons, I participated in the conference online and presented on the Generalized Implicit Factorization Problem.&lt;/p&gt;&#xA;&lt;p&gt;This picture is from the official website, and I believe the scenery here is beautiful.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;img src=&#34;../img/confs/2023/sac/sac.png&#34; alt=&#34;sac2023&#34;   /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;img src=&#34;../img/confs/2023/sac/landscape.png&#34; alt=&#34;landscape&#34;   /&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Practical Attacks on Small Private Exponent RSA.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;???&lt;/em&gt;&lt;br&gt;&#xA;Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.&lt;br&gt;&#xA;[&lt;a href=&#34;https://eprint.iacr.org/2024/1331.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[Wombat] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;???&lt;/em&gt;&lt;br&gt;&#xA;Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.&lt;br&gt;&#xA;[&lt;a href=&#34;https://eprint.iacr.org/2024/1330&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;CIC 2024&lt;/em&gt;&lt;br&gt;&#xA;Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.&lt;br&gt;&#xA;[&lt;a href=&#34;https://eprint.iacr.org/2024/1329&#34;&gt;PDF&lt;/a&gt;][&lt;a href=&#34;https://github.com/fffmath/MSBsOfPrivateKeyAttack&#34;&gt;CODE&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;[OK] Solving $\gamma$-SVP in Order-Ideal Lattices.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;???&lt;/em&gt;&lt;br&gt;&#xA;Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

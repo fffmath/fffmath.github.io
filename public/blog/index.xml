@@ -7,6 +7,21 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>Yansong Feng</copyright>
+    <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asiacrypt 2023</title>
+      <link>http://localhost:1313/asiacrypt-2023/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asiacrypt-2023/</guid>
+      <description>&lt;p&gt;This is my first time going to the South of China, and I&amp;rsquo;m really looking forward to the delicious food, scenery, and warm weather in Guangzhou.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m staying near Guangzhou Railway Station this time, and there&amp;rsquo;s a delicious breakfast place nearby.&lt;/p&gt;&#xA;&lt;p&gt;One afternoon, I went to Foshan City, where there is the Wong Fei-hung Memorial Hall.&lt;/p&gt;&#xA;&lt;p&gt;Later, I also went to Hong Kong and Macau.&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;img src=&#34;../img/confs/2023/asiacrypt/mcdull.png&#34; alt=&#34;mcdull&#34;   /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;img src=&#34;../img/confs/2023/asiacrypt/pi_coffee.png&#34; alt=&#34;pi&#34;   /&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SAC 2023</title>
+      <link>http://localhost:1313/sac-2023/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sac-2023/</guid>
+      <description>&lt;p&gt;Due to visa reasons, I participated in the conference online and presented on the Generalized Implicit Factorization Problem.&lt;/p&gt;&#xA;&lt;p&gt;This picture is from the official website, and I believe the scenery here is beautiful.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;img src=&#34;../img/confs/2023/sac/sac.png&#34; alt=&#34;sac2023&#34;   /&gt;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;img src=&#34;../img/confs/2023/sac/landscape.png&#34; alt=&#34;landscape&#34;   /&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
