@@ -1,11 +1,9 @@
-## Setup
+# Welcome to my homepage!
 
-```bash
-git clone --recursive git@github.com:sihangpu/sihangpu.github.io.git homepage
 ```
+### Hey, guys 👋
 
-or add the theme to the existing Hugo site:
+- ❤️ I have a passion for music 🎵, running 🏃‍♀️, and dinos 🦕.
+- 📖 You can find more about me on my website.
 
-```bash
-git submodule add https://github.com/janraasch/hugo-bearblog.git themes/hugo-bearblog
-```
+Enjoy exploring! 🚀
