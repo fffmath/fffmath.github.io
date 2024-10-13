@@ -19,7 +19,7 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]
 
-- **[٩(•̤̀ᵕ•̤́๑)ᵒᵏᵎᵎᵎᵎ] Solving $\gamma$-SVP in Order-Ideal Lattices.**\
+- **[٩(•̤̀ᵕ•̤́๑)ᵒᵏᵎᵎᵎᵎ] Solving γ-SVP in Order-Ideal Lattices.**\
 *???*\
 Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.
 
