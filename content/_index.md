@@ -1,11 +1,14 @@
 ![photo](img/climbing.jpg#150 "shadow border right")
 
-Now I am a first-year PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests lie in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**, where I am currently delving into both the underlying mathematical theory and their real-world applications.
+ⓗⓔⓛⓛⓞ
+
+Now I am a first-year PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests lie in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**, where I am currently delving into both the underlying mathematical theory and their real-world applications. 
 
 Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/cryptogroup/) in Aarhus University from October 2024 to October 2025, hosted by [Diego F. Aranha](https://dfaranha.github.io/).
 
-
 ### Selected Publications
+
+ヾ(＾∇＾) My favourite results:
 
 - **[\~Ⴚ(●ტ●)Ⴢ\~] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.**\
 *???*\
@@ -24,12 +27,14 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 
 ### Talks
 
-- Sovling Polynomial Equations with Newton Polytope [[Slides]](../pdf/slides/np.pdf)
+(👍≖‿‿≖)👍 👍(≖‿‿≖👍)
+
+- Sovling Polynomial Equations with Newton Polytope [[Slides](../pdf/slides/np.pdf)]
 
     - [November 15, 2024] NordiCrypt, University of Southern Denmark, Denmark
     - [November, 2024] Crypto Group Seminar, Aarhus University, Denmark 
 
-- Generalized Implicit Factorization Problem [[Slides]](../pdf/slides/gifp.pdf)
+- Generalized Implicit Factorization Problem [[Slides](../pdf/slides/gifp.pdf)]
 
     - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China
     - [August 18, 2023] 30th Selected Areas in Cryptography, University of New Brunswick, Canada
@@ -37,11 +42,13 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 
 ### Miscellaneous
 
-- [[CV]](../pdf/mycv.pdf) My CV in PDF format.
-  
-- [[MyNotes]](https://notes.fffmath.com) My notes on various topics.
+ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
 
-- [[Useful-Link]](https://link.fffmath.com) A cute website contains many useful links.
+- [[CV](../pdf/mycv.pdf)] My CV in PDF format.
+  
+- [[MyNotes](https://notes.fffmath.com)] My notes on various topics.
+
+- [[Useful-Link](https://link.fffmath.com)] A cute website contains many useful links.
 
 ### Contact
 
