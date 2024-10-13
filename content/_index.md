@@ -7,7 +7,7 @@ Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/crypto
 
 ### Selected Publications
 
-- **[Wombat] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.**\
+- **[\~Ⴚ(●ტ●)Ⴢ\~] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.**\
 *???*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1330)]
@@ -23,6 +23,11 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/Identifying-Ideal-Lattice)]
 
 ### Talks
+
+- Sovling Polynomial Equations with Newton Polytope [[Slides]](../pdf/slides/np.pdf)
+
+    - [November 15, 2024] NordiCrypt, University of Southern Denmark, Denmark
+    - [November, 2024] Crypto Group Seminar, Aarhus University, Denmark 
 
 - Generalized Implicit Factorization Problem [[Slides]](../pdf/slides/gifp.pdf)
 

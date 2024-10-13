@@ -2,13 +2,14 @@
 title = "Publications"
 menu = "main"
 +++
-
+### 2024
+---
 - **Practical Attacks on Small Private Exponent RSA.**\
 *???*\
 Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1331.pdf)]
 
-- **[Wombat] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.**\
+- **[\~Ⴚ(●ტ●)Ⴢ\~] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.**\
 *???*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1330)]
@@ -18,7 +19,7 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]
 
-- **[OK] Solving $\gamma$-SVP in Order-Ideal Lattices.**\
+- **[٩(•̤̀ᵕ•̤́๑)ᵒᵏᵎᵎᵎᵎ] Solving $\gamma$-SVP in Order-Ideal Lattices.**\
 *???*\
 Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.
 
@@ -35,12 +36,15 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.
 *Theoretical Computer Science 2024*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://doi.org/10.1016/j.tcs.2024.114549)][[CODE](https://github.com/fffmath/ppfe-attack)]
-
+### 2023
+---
 - **Generalized Implicit Factorization Problem.**\
 *SAC 2023*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2023/1562)][[CODE](https://github.com/fffmath/gifp)]
 
+### 2022
+---
 - **On Rangasamy's outsourcing algorithm for solving quadratic congruence equations.**\
 *???*\
 Xiulan Li, Yansong Feng, Yanbin Pan.\
