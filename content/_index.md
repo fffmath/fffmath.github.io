@@ -2,7 +2,7 @@
 
 ⓗⓔⓛⓛⓞ!
 
-Now I am a first-year PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests lie in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**, where I am currently delving into both the underlying mathematical theory and their real-world applications. 
+Now I am a first-year PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests primarily revolve around Algorithms \& Theory, particularly in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**.
 
 Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/cryptogroup/) in Aarhus University from October 2024 to October 2025, hosted by [Diego F. Aranha](https://dfaranha.github.io/).
 
