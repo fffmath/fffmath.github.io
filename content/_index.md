@@ -45,8 +45,6 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
 
 - [[CV](../pdf/mycv.pdf)] My CV in PDF format.
-  
-- [[MyNotes](https://notes.fffmath.com)] My notes on various topics.
 
 - [[Useful-Link](https://link.fffmath.com)] A cute website contains many useful links.
 
