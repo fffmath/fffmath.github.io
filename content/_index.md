@@ -23,7 +23,7 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.**\
 *ISSAC 2024*\
 Yihang Cheng, Yansong Feng, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/Identifying-Ideal-Lattice)]
+[[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]
 
 ### Talks
 

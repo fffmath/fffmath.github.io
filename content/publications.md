@@ -26,7 +26,7 @@ Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.**\
 *ISSAC 2024*\
 Yihang Cheng, Yansong Feng, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/Identifying-Ideal-Lattice)]
+[[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]
 
 - **[Combee] Solving Modular Linear Equations via Automated Coppersmith and its Applications.**\
 *???*\
@@ -35,13 +35,13 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.
 - **Partial Prime Factor Exposure Attacks on Some RSA Variants.**\
 *Theoretical Computer Science 2024*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://doi.org/10.1016/j.tcs.2024.114549)][[CODE](https://github.com/fffmath/ppfe-attack)]
+[[PDF](https://doi.org/10.1016/j.tcs.2024.114549)][[CODE](https://github.com/fffmath/PPFEAttack)]
 ### 2023
 ---
 - **Generalized Implicit Factorization Problem.**\
 *SAC 2023*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2023/1562)][[CODE](https://github.com/fffmath/gifp)]
+[[PDF](https://eprint.iacr.org/2023/1562)][[CODE](https://github.com/fffmath/GIFP)]
 
 ### 2022
 ---
