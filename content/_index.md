@@ -29,15 +29,15 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 
 (👍≖‿‿≖)👍 👍(≖‿‿≖👍)
 
-- Sovling Polynomial Equations with Newton Polytope [[Slides](../pdf/slides/np.pdf)]
+- Sovling Polynomial Equations with Newton Polytope
 
-    - [November 15, 2024] NordiCrypt, University of Southern Denmark, Denmark
+    - [November 15, 2024] NordiCrypt, University of Southern Denmark, Denmark [[Slides](../pdf/slides/nordicrypt24.pdf)]
     - [???] Crypto Group Seminar, Aarhus University, Denmark
 
-- Generalized Implicit Factorization Problem [[Slides](../pdf/slides/gifp.pdf)]
+- Generalized Implicit Factorization Problem
 
-    - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China
-    - [August 18, 2023] 30th Selected Areas in Cryptography, University of New Brunswick, Canada
+    - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China [[Slides](../pdf/slides/ai4math.pdf)]
+    - [August 18, 2023] 30th Selected Areas in Cryptography, University of New Brunswick, Canada [[Slides](../pdf/slides/sac23.pdf)]
 
 
 ### Miscellaneous
