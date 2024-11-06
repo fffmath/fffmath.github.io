@@ -32,7 +32,7 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 - Sovling Polynomial Equations with Newton Polytope [[Slides](../pdf/slides/np.pdf)]
 
     - [November 15, 2024] NordiCrypt, University of Southern Denmark, Denmark
-    - [November, 2024] Crypto Group Seminar, Aarhus University, Denmark 
+    - [???] Crypto Group Seminar, Aarhus University, Denmark
 
 - Generalized Implicit Factorization Problem [[Slides](../pdf/slides/gifp.pdf)]
 

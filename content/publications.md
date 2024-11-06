@@ -4,6 +4,14 @@ menu = "main"
 +++
 ### 2024
 ---
+- **Explicit Formulas for the Asymptotic Bound of Small Roots in Coppersmith's Method.**\
+*???*\
+Yansong Feng, Hengyi Luo, Qiyuan Chen, Yanbin Pan.\
+
+- **Finding Shorter Vectors in Ideal Lattices with a Balance Technique.**\
+*???*\
+Zhen Liu, Yansong Feng, Yanbin Pan.\
+
 - **Practical Attacks on Small Private Exponent RSA.**\
 *???*\
 Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
