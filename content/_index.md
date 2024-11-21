@@ -32,10 +32,10 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 - Sovling Polynomial Equations with Newton Polytope
 
     - [November 15, 2024] NordiCrypt, University of Southern Denmark, Denmark [[Slides](../pdf/slides/nordicrypt24.pdf)]
-    - [November 21, 2024] Crypto Group Seminar, Aarhus University, Denmark [Slides]
+    - [November 21, 2024] Crypto Group Seminar, Aarhus University, Denmark [[Slides](../pdf/slides/seminar1121.pdf)]
 
 - Solving Modular Linear Equations via Automated Coppersmith and its Applications
-    - [December ???, 2024] Inscrypt, Yulongwan Resort, China [Slides]
+    - [December ???, 2024] Inscrypt, Yulongwan Resort, China [Slides](../pdf/slides/inscrypt24.pdf)]
 
 - Generalized Implicit Factorization Problem
 
