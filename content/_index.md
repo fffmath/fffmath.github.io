@@ -35,7 +35,7 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
     - [November 21, 2024] Crypto Group Seminar, Aarhus University, Denmark [[Slides](../pdf/slides/seminar1121.pdf)]
 
 - Solving Modular Linear Equations via Automated Coppersmith and its Applications
-    - [December ???, 2024] Inscrypt, Yulongwan Resort, China [Slides](../pdf/slides/inscrypt24.pdf)]
+    - [December ???, 2024] Inscrypt, Yulongwan Resort, China [[Slides](../pdf/slides/inscrypt24.pdf)]
 
 - Generalized Implicit Factorization Problem
 

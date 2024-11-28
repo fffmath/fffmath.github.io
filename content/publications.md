@@ -53,14 +53,18 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 ### 2023
 
 ---
+
 - **Generalized Implicit Factorization Problem.**\
 *SAC 2023*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2023/1562)][[CODE](https://github.com/fffmath/GIFP)]
+[[PDF](https://eprint.iacr.org/2023/1562)][[CODE](https://github.com/fffmath/GIFP)]\
+Some related CTF challenges:
+    - “凌武杯” D^3CTF 2024 [[myRSA.py](../code/myRSA.py)][[WriteUp](https://mp.weixin.qq.com/s/0sBfu94em2sR82OYDZF6zQ)]
 
 ### 2022
 
 ---
+
 - **On Rangasamy's outsourcing algorithm for solving quadratic congruence equations.**\
 *???*\
 Xiulan Li, Yansong Feng, Yanbin Pan.\
