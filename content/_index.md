@@ -10,21 +10,14 @@ Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/crypto
 
 ヾ(＾∇＾) My favourite results:
 
-- **[\~Ⴚ(●ტ●)Ⴢ\~] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.**\
-*???*\
-Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1330)]
+- **Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.** [[PDF](https://eprint.iacr.org/2024/1330)]\
+We provide the *first* explicit formulas for the asymptotic bound of small roots in Coppersmith's Method, by using tools from  Additive Combinatorics.
 
-- **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.**\
-*CIC 2024*\
-Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]
+- **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.** *CIC'24* [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]\
+ We improve attack of [BDF98, Aisacrypt'98] and achieve a 2^10 (or 1,024) x improvement in the running time for e=65537.
 
-- **Embedding Integer Lattices as Ideals into  Polynomial Rings.**\
-*ISSAC 2024*\
-Yihang Cheng, Yansong Feng, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]
-
+- **Embedding Integer Lattices as Ideals into  Polynomial Rings.** *ISSAC'24* [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]\
+An algorithm to verify whether a given full-rank lattice in Z^n is an ideal lattice and output all the polynomial rings.
 ### Talks
 
 (👍≖‿‿≖)👍 👍(≖‿‿≖👍)
@@ -35,7 +28,7 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
     - [November 21, 2024] Crypto Group Seminar, Aarhus University, Denmark [[Slides](../pdf/slides/seminar1121.pdf)]
 
 - Solving Modular Linear Equations via Automated Coppersmith and its Applications
-    - [December ???, 2024] Inscrypt, Yulongwan Resort, China [[Slides](../pdf/slides/inscrypt24.pdf)]
+    - [December 14, 2024] Inscrypt, Yulongwan Resort, China [[Slides](../pdf/slides/inscrypt24.pdf)]
 
 - Generalized Implicit Factorization Problem
 
