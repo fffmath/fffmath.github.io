@@ -1,6 +1,6 @@
 ![photo](img/climbing.jpg#150 "shadow border right")
 
-ⓗⓔⓛⓛⓞ!
+ⓗⓔⓛⓛⓞ! (👍≖‿‿≖)👍 👍(≖‿‿≖👍)
 
 Now I am a first-year PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests primarily revolve around Algorithms \& Theory, particularly in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**.
 
@@ -8,7 +8,7 @@ Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/crypto
 
 ### Selected Publications
 
-ヾ(＾∇＾) My favourite results:
+ヾ(＾∇＾) Some of my favourite results:
 
 - **Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.** [[PDF](https://eprint.iacr.org/2024/1330)]\
 We provide the *first* explicit formulas for the asymptotic bound of small roots in Coppersmith's Method, by using tools from  Additive Combinatorics.
@@ -18,23 +18,6 @@ We provide the *first* explicit formulas for the asymptotic bound of small roots
 
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.** *ISSAC'24* [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]\
 An algorithm to verify whether a given full-rank lattice in Z^n is an ideal lattice and output all the polynomial rings.
-### Talks
-
-(👍≖‿‿≖)👍 👍(≖‿‿≖👍)
-
-- Sovling Polynomial Equations with Newton Polytope
-
-    - [November 15, 2024] NordiCrypt, University of Southern Denmark, Denmark [[Slides](../pdf/slides/nordicrypt24.pdf)]
-    - [November 21, 2024] Crypto Group Seminar, Aarhus University, Denmark [[Slides](../pdf/slides/seminar1121.pdf)]
-
-- Solving Modular Linear Equations via Automated Coppersmith and its Applications
-    - [December 14, 2024] Inscrypt, Yulongwan Resort, China [[Slides](../pdf/slides/inscrypt24.pdf)]
-
-- Generalized Implicit Factorization Problem
-
-    - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China [[Slides](../pdf/slides/ai4math.pdf)]
-    - [August 18, 2023] Selected Areas in Cryptography, University of New Brunswick, Canada [[Slides](../pdf/slides/sac23.pdf)]
-
 
 ### Miscellaneous
 

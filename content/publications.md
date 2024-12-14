@@ -5,22 +5,18 @@ menu = "main"
 ### 2024
 ---
 - **Explicit Formulas for the Asymptotic Bound of Small Roots in Coppersmith's Method.**\
-*???*\
 Yansong Feng, Hengyi Luo, Qiyuan Chen, Yanbin Pan.\
 [PDF][CODE]
 
 - **Finding Shorter Vectors in Ideal Lattices with a Balance Technique.**\
-*???*\
 Zhen Liu, Yansong Feng, Yanbin Pan.\
 [PDF][[CODE](https://github.com/zl1621/balance-phs-style)]
 
 - **Practical Attacks on Small Private Exponent RSA.**\
-*???*\
 Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1331.pdf)][CODE]
 
 - **[\~Ⴚ(●ტ●)Ⴢ\~] Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.**\
-*???*\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1330)][CODE]
 
@@ -31,7 +27,6 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]
 
 - **[٩(•̤̀ᵕ•̤́๑)ᵒᵏᵎᵎᵎᵎ] Solving γ-SVP in Order-Ideal Lattices.**\
-*???*\
 Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.\
 [PDF][CODE]
 
@@ -66,6 +61,5 @@ Some related CTF challenges:
 ---
 
 - **On Rangasamy's outsourcing algorithm for solving quadratic congruence equations.**\
-*???*\
 Xiulan Li, Yansong Feng, Yanbin Pan.\
 [[PDF](https://arxiv.org/pdf/2203.10751)][CODE]
