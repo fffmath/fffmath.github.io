@@ -15,7 +15,7 @@ Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
 
 - **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.**\
 Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1330)][CODE]
+[[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]
 
 
 - **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.**\
