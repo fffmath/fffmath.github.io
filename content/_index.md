@@ -14,7 +14,7 @@ Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/crypto
 By introducing the Sumsets theory from Additive Combinatorics as a new analytical tool, we develop the first provable algorithm for determining these asymptotic bounds, which significantly streamlines manual calculations. 
 
 - **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.** *CIC'24* [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]\
- We improve attack of [BDF98, Aisacrypt'98] and achieve a 2^10 (or 1,024) x improvement in the running time for e=65537.
+We improve the attack by Boneh et al. at Asiacrypt '98 and achieve a 2^10 (or 1,024) x improvement in the running time for e = 65,537.
 
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.** *ISSAC'24* [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]\
 An algorithm to verify whether a given full-rank lattice in Z^n is an ideal lattice and output all the polynomial rings.
