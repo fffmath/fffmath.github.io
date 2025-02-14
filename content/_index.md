@@ -10,8 +10,8 @@ Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/crypto
 
 ヾ(＾∇＾) Some of my favourite results:
 
-- **Newton Polytope-Based Strategy for Finding Roots of Multivariate Polynomials.** [[PDF](https://eprint.iacr.org/2024/1330)]\
-We provide the *first* explicit formulas for the asymptotic bound of small roots in Coppersmith's Method, by using tools from  Additive Combinatorics.
+- **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.** [[PDF](https://eprint.iacr.org/2024/1330)]\
+By introducing the Sumsets theory from Additive Combinatorics as a new analytical tool, we develop the first provable algorithm for determining these asymptotic bounds, which significantly streamlines manual calculations. 
 
 - **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.** *CIC'24* [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]\
  We improve attack of [BDF98, Aisacrypt'98] and achieve a 2^10 (or 1,024) x improvement in the running time for e=65537.
