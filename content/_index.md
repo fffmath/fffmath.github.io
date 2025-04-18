@@ -23,8 +23,6 @@ An algorithm to verify whether a given full-rank lattice in Z^n is an ideal latt
 
 ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
 
-- [[CV](../pdf/mycv.pdf)] My CV in PDF format.
-
 - [[Useful-Link](https://link.fffmath.com)] A cute website contains many useful links.
 
 ### Contact

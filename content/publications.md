@@ -2,7 +2,17 @@
 title = "Publications"
 menu = "main"
 +++
+### 2025
+
+---
+
+- **Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques.**\
+*ACISP 2025*\
+Mengce Zheng, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
+[PDF][CODE]
+
 ### 2024
+
 ---
 
 - **Finding Shorter Vectors in Ideal Lattices with a Balance Technique.**\
@@ -27,7 +37,7 @@ Some related CTF challenges 🚩:
 
 
 - **[٩(•̤̀ᵕ•̤́๑)ᵒᵏᵎᵎᵎᵎ] Solving γ-SVP in Order-Ideal Lattices.**\
-Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.\
+Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.
 
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.**\
 *ISSAC 2024*\
