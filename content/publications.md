@@ -6,6 +6,12 @@ menu = "main"
 
 ---
 
+- **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.**\
+*Crypto 2025*\
+Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
+[[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]
+
+
 - **Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques.**\
 *ACISP 2025*\
 Mengce Zheng, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
@@ -22,11 +28,6 @@ Zhen Liu, Yansong Feng, Yanbin Pan.\
 - **Practical Attacks on Small Private Exponent RSA.**\
 Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1331.pdf)][CODE]
-
-- **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.**\
-Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]
-
 
 - **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.**\
 *CIC 2024*\

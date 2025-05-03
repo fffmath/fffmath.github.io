@@ -10,7 +10,7 @@ Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/crypto
 
 ヾ(＾∇＾) Some of my favourite results:
 
-- **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.** [[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]\
+- **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.** *Crypto'25* [[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]\
 By introducing the Sumsets theory from Additive Combinatorics as a new analytical tool, we develop the first provable algorithm for determining these asymptotic bounds, which significantly streamlines manual calculations. 
 
 - **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.** *CIC'24* [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]\
