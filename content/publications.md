@@ -34,7 +34,7 @@ Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
 Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]\
 Some related CTF challenges 🚩:
-    - SUCTF 2025 [[SU_rsa.py](https://www.fffmath.com/code/SU_rsa.py)][WriteUp]
+    - SUCTF 2025 [[SU_rsa.py](https://www.fffmath.com/code/SU_rsa.py)][[WriteUp](https://www.fffmath.com/code/SU_rsa_solve.md)]
 
 
 - **[٩(•̤̀ᵕ•̤́๑)ᵒᵏᵎᵎᵎᵎ] Solving γ-SVP in Order-Ideal Lattices.**\
@@ -64,7 +64,7 @@ Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2023/1562)][[CODE](https://github.com/fffmath/GIFP)]\
 Some related CTF challenges 🚩:
-    - “凌武杯” D^3CTF 2024 [[myRSA.py](https://www.fffmath.com/code/myRSA.py)][[WriteUp](https://mp.weixin.qq.com/s/0sBfu94em2sR82OYDZF6zQ)]
+    - “凌武杯” D^3CTF 2024 [[myRSA.py](https://www.fffmath.com/code/myRSA.py)][[WriteUp](https://www.fffmath.com/code/myRSA_solve.md)]
 
 ### 2022
 
