@@ -45,10 +45,10 @@ Yihang Cheng, Yansong Feng, Hengyi Luo, Yanbin Pan.
 Yihang Cheng, Yansong Feng, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]
 
-- **[Combee] Solving Modular Linear Equations via Automated Coppersmith and its Applications.**\
+- **Solving Modular Linear Equations via Automated Coppersmith and its Applications.**\
 *Inscrypt 2024*\
 Yansong Feng,  Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
-[PDF][[CODE](https://github.com/fffmath/CombeeIFP)]
+[[PDF](https://link.springer.com/chapter/10.1007/978-981-96-4734-7_7)][[CODE](https://github.com/fffmath/CombeeIFP)]
 
 - **Partial Prime Factor Exposure Attacks on Some RSA Variants.**\
 *Theoretical Computer Science 2024*\

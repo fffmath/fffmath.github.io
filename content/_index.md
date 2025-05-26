@@ -19,6 +19,9 @@ We improve the attack by Boneh et al. at Asiacrypt '98 and achieve a 2^10 (or 1,
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.** *ISSAC'24* [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]\
 An algorithm to verify whether a given full-rank lattice in Z^n is an ideal lattice and output all the polynomial rings.
 
+### Professional Activities
+External Reviewer: IEEE TDSC 2025, Africacrypt 2025, Asiacrypt 2025
+
 ### Miscellaneous
 
 ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ
