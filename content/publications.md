@@ -5,6 +5,9 @@ menu = "main"
 ### 2025
 
 ---
+- **On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector.**\
+Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan.\
+[[PDF](https://eprint.iacr.org/2025/1004)]
 
 - **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.**\
 *Crypto 2025*\
@@ -14,8 +17,7 @@ Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
 
 - **Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques.**\
 *ACISP 2025*\
-Mengce Zheng, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
-[PDF][CODE]
+Mengce Zheng, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.
 
 ### 2024
 
@@ -23,11 +25,11 @@ Mengce Zheng, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
 
 - **Finding Shorter Vectors in Ideal Lattices with a Balance Technique.**\
 Zhen Liu, Yansong Feng, Yanbin Pan.\
-[PDF][[CODE](https://github.com/zl1621/balance-phs-style)]
+[[CODE](https://github.com/zl1621/balance-phs-style)]
 
 - **Practical Attacks on Small Private Exponent RSA.**\
 Yansong Feng, Zhen Liu, Abderrahmane Nitaj, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2024/1331.pdf)][CODE]
+[[PDF](https://eprint.iacr.org/2024/1331.pdf)]
 
 - **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.**\
 *CIC 2024*\
