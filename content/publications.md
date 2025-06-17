@@ -5,6 +5,10 @@ menu = "main"
 ### 2025
 
 ---
+- **Solving LWE with Independent Hints about Secret and Errors.**\
+Qian Lu, Yansong Feng, Yanbin Pan.\
+[[PDF](https://eprint.iacr.org/2025/1128)]
+
 - **On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector.**\
 Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2025/1004)]
@@ -13,7 +17,6 @@ Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan.\
 *Crypto 2025*\
 Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
 [[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]
-
 
 - **Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques.**\
 *ACISP 2025*\
