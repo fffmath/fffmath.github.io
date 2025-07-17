@@ -20,7 +20,8 @@ Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
 
 - **Improving RSA Cryptanalysis: Combining Continued Fractions and Coppersmith's Techniques.**\
 *ACISP 2025*\
-Mengce Zheng, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.
+Mengce Zheng, Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
+[[PDF](https://eprint.iacr.org/2025/1281)][[CODE](https://github.com/MengceZheng/RSA_CFL)]
 
 ### 2024
 
