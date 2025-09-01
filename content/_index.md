@@ -2,9 +2,19 @@
 
 ⓗⓔⓛⓛⓞ! (👍≖‿‿≖)👍 👍(≖‿‿≖👍)
 
-Now I am a first-year PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/). My research interests primarily revolve around Algorithms \& Theory, particularly in **Lattice-based Cryptography** and **Succinct Zero-Knowledge Proofs**.
+Now I am a PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/).  
+My research interests primarily focus on using Algorithmic Number Theory and Combinatorics to solve problems in Cryptography.  
+I prefer problems that have a mathematical structure, such as an algebraic or combinatorial flavor.  
 
-Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/cryptogroup/) in Aarhus University from October 2024 to October 2025, hosted by [Diego F. Aranha](https://dfaranha.github.io/).
+Together with my collaborators, we introduced additive combinatorics into Coppersmith's method, which allowed us to avoid manual calculations of success conditions.  
+This result was accepted to Crypto'25, and we also have some interesting applications and follow-up work.  
+
+Currently, I am interested in leakage-resilient secret sharing, not only in terms of lower bounds but also in proving security.  
+I particularly enjoy the Fourier analysis and additive combinatorics tools used in this area.  
+
+**I am currently looking for a postdoc.**
+
+
 
 ### Selected Publications
 
