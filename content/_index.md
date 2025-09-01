@@ -8,7 +8,7 @@ Currently, I am visiting the [Crypto Group](https://www.cs.au.dk/~orlandi/crypto
 
 ### Selected Publications
 
-ヾ(＾∇＾) Some of my favourite results:
+ヾ(＾∇＾) Some of my favourite results ([A full list of publications](/publications/)):
 
 - **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.** *Crypto'25* [[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]\
 By introducing the Sumsets theory from Additive Combinatorics as a new analytical tool, we develop the first provable algorithm for determining these asymptotic bounds, which significantly streamlines manual calculations. 
@@ -19,7 +19,10 @@ We improve the attack by Boneh et al. at Asiacrypt '98 and achieve a 2^10 (or 1,
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.** *ISSAC'24* [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]\
 An algorithm to verify whether a given full-rank lattice in Z^n is an ideal lattice and output all the polynomial rings.
 
-### Professional Activities
+### Activities
+
+[Trips & Talks](/trips-talks/)
+
 External Reviewer: IEEE TDSC 2025, Africacrypt 2025, Asiacrypt 2025
 
 ### Miscellaneous

@@ -1,6 +1,4 @@
 +++
-title = "Publications"
-menu = "main"
 +++
 ### 2025
 
