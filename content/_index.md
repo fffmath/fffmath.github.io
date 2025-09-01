@@ -2,19 +2,13 @@
 
 ⓗⓔⓛⓛⓞ! (👍≖‿‿≖)👍 👍(≖‿‿≖👍)
 
-Now I am a PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/).  
-My research interests primarily focus on using Algorithmic Number Theory and Combinatorics to solve problems in Cryptography.  
-I prefer problems that have a mathematical structure, such as an algebraic or combinatorial flavor.  
+Now I am a PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/) and I also spent one year in the [Crypto Group](https://www.cs.au.dk/~orlandi/cryptogroup/) at Aarhus University, hosted by [Diego F. Aranha](https://dfaranha.github.io/). My research interests primarily focus on applying Algorithmic Number Theory and Combinatorics to problems in Cryptography. I prefer problems with a strong mathematical structure, such as those with an algebraic or combinatorial flavor.  
 
-Together with my collaborators, we introduced additive combinatorics into Coppersmith's method, which allowed us to avoid manual calculations of success conditions.  
-This result was accepted to Crypto'25, and we also have some interesting applications and follow-up work.  
+Together with my collaborators, we introduced additive combinatorics into Coppersmith's method, which enabled us to remove manual calculations of success conditions. This work was accepted to Crypto’25, and we also have several interesting applications and follow-up results.  
 
-Currently, I am interested in leakage-resilient secret sharing, not only in terms of lower bounds but also in proving security.  
-I particularly enjoy the Fourier analysis and additive combinatorics tools used in this area.  
+Currently, I am interested in leakage-resilient secret sharing, not only in terms of lower bounds but also in proving security. I particularly enjoy the Fourier analysis and additive combinatorics tools used in this area.
 
-**I am currently looking for a postdoc.**
-
-
+> **🔴 I am currently looking for a postdoc.**
 
 ### Selected Publications
 
