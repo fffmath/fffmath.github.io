@@ -21,5 +21,5 @@
 
 - Generalized Implicit Factorization Problem
 
-    - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China [[Slides](../pdf/slides/ai4math.pdf)]
+    - [December 24, 2023] AI for Math 理论探索与工程应用研讨会, Institute of Automation, Chinese of Academy of Sciences, China [[Slides](../pdf/slides/ai4math23.pdf)]
     - [August 18, 2023] Selected Areas in Cryptography, University of New Brunswick, Canada [[Slides](../pdf/slides/sac23.pdf)]
