@@ -6,7 +6,7 @@ I am currently a second-year Ph.D. student under the supervision of [Yanbin Pan]
 
 ### Selected Publications
 
-ヾ(＾∇＾) [DBLP](https://dblp.org/pid/25/2643-1)[Google Scholar](https://scholar.google.com/citations?user=mO_Dkx8AAAAJ)
+ヾ(＾∇＾) [[DBLP](https://dblp.org/pid/25/2643-1)][[Google Scholar](https://scholar.google.com/citations?user=mO_Dkx8AAAAJ)]
 
 - **Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method.**\
 Marius A. Aardal, Diego F. Aranha, Yansong Feng, Yiming Gao, Yanbin Pan.\
