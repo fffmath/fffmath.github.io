@@ -2,35 +2,27 @@
 
 ⓗⓔⓛⓛⓞ! ϞϞ(๑⚈ ․̫ ⚈๑)∩
 
-Now I am a second-year PhD student under the guidance of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/) and I also spent one year in the [Crypto Group](https://www.cs.au.dk/~orlandi/cryptogroup/) at Aarhus University, hosted by [Diego F. Aranha](https://dfaranha.github.io/). My research interests primarily focus on applying Algorithmic Number Theory and Combinatorics to problems in Cryptography. I prefer problems with a strong mathematical structure, such as those with an algebraic or combinatorial flavor.  
+I am currently a second-year Ph.D. student under the supervision of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/), and I am expected to graduate in 2027. I also spent one year with the [Crypto Group](https://www.cs.au.dk/~orlandi/cryptogroup/) at Aarhus University, hosted by [Diego F. Aranha](https://dfaranha.github.io/). My research interests lie primarily in the application of Algorithmic Number Theory and Combinatorics to problems in Cryptography and Theoretical Computer Science. I prefer problems with a strong mathematical structure, such as those with an algebraic or combinatorial flavor.
 
 ### Selected Publications
 
-ヾ(＾∇＾) Some of my favourite results ([A full list of publications](/publications/)):
+ヾ(＾∇＾) [DBLP](https://dblp.org/pid/25/2643-1)[Google Scholar](https://scholar.google.com/citations?user=mO_Dkx8AAAAJ)
+
+- **Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method.**\
+Marius A. Aardal, Diego F. Aranha, Yansong Feng, Yiming Gao, Yanbin Pan.\
+[[PDF](https://eprint.iacr.org/2025/1812)]
 
 - **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.**\
 Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
-**Crypto 2025** [[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]\
-By introducing the Sumsets theory from Additive Combinatorics as a new analytical tool, we develop the first provable algorithm for determining these asymptotic bounds, which significantly streamlines manual calculations.
+**Crypto 2025** [[PDF](https://eprint.iacr.org/2024/1330)][[CODE](https://github.com/fffmath/AsymptoticBounds)]
 
 - **On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector.**\
 Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2025/1004)]\
-Based on the baby-step giant-step technique, we propose several algorithms for integer factorization. An interesting observation is that the shortest vector typically yields a trivial collision, but the second shortest vector gives a non-trivial collision.
-
-- **Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA.**\
-Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
-**CIC 2024** [[PDF](https://eprint.iacr.org/2024/1329)][[CODE](https://github.com/fffmath/MSBsOfPrivateKeyAttack)]\
-We improve the attack by Boneh et al. at Asiacrypt '98 and achieve a 2^10 (or 1,024) x improvement in the running time for e = 65,537.
+[[PDF](https://eprint.iacr.org/2025/1004)]
 
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.**\
 Yihang Cheng, Yansong Feng, Yanbin Pan.\
-**ISSAC 2024**  [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]\
-An algorithm to verify whether a given full-rank lattice in Z^n is an ideal lattice and output all the polynomial rings.
-
-- **Generalized Implicit Factorization Problem.**\
-Yansong Feng,  Abderrahmane Nitaj, Yanbin Pan.\
-**SAC 2023** [[PDF](https://eprint.iacr.org/2023/1562)][[CODE](https://github.com/fffmath/GIFP)]
+**ISSAC 2024**  [[PDF](https://eprint.iacr.org/2024/1041)][[CODE](https://github.com/fffmath/IdentifyIdealLattice)]
 
 ### Activities
 
@@ -46,4 +38,4 @@ External Reviewer: IEEE TDSC 2025, Africacrypt 2025, Asiacrypt 2025
 
 ### Contact
 
-[Github](https://github.com/fffmath) | [DBLP](https://dblp.org/pid/25/2643-1) | [Google Scholar](https://scholar.google.com/citations?user=mO_Dkx8AAAAJ) | fengyansong [at] amss.ac.cn
+[Github](https://github.com/fffmath) | fengyansong [at] amss.ac.cn
