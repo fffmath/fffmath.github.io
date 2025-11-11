@@ -18,7 +18,7 @@ Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
 
 - **On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector.**\
 Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2025/1004)]
+**Math. Comp.** [[PDF](https://eprint.iacr.org/2025/1004)]
 
 - **Embedding Integer Lattices as Ideals into  Polynomial Rings.**\
 Yihang Cheng, Yansong Feng, Yanbin Pan.\
@@ -28,7 +28,7 @@ Yihang Cheng, Yansong Feng, Yanbin Pan.\
 
 [Trips & Talks](/trips-talks/)
 
-External Reviewer: IEEE TDSC 2025, Africacrypt 2025, Asiacrypt 2025
+External Reviewer: Asiacrypt, PKC, Africacrypt, IEEE TDSC
 
 ### Miscellaneous
 
