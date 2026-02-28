@@ -4,13 +4,19 @@
 
 I am currently a second-year Ph.D. student under the supervision of [Yanbin Pan](https://mmrc.iss.ac.cn/~yanbinpan/), and I am expected to graduate in 2027. I also spent one year with the [Crypto Group](https://www.cs.au.dk/~orlandi/cryptogroup/) at Aarhus University, hosted by [Diego F. Aranha](https://dfaranha.github.io/). My research interests lie primarily in the application of Algorithmic Number Theory and Combinatorics to problems in Cryptography and Theoretical Computer Science. I prefer problems with a strong mathematical structure, such as those with an algebraic or combinatorial flavor.
 
+I will visit NUS from March 1st to the end of May,, hosted by [Divesh Aggarwal](https://sites.google.com/site/diveshhomepage/).
+
 ### Selected Publications
 
 ヾ(＾∇＾) [[DBLP](https://dblp.org/pid/25/2643-1)][[Google Scholar](https://scholar.google.com/citations?user=mO_Dkx8AAAAJ)]
 
+- **Revisit Unravelled Linearization with Erhart (quasi-)Polynomial.**\
+Yiming Gao, Yansong Feng, Honggang Hu, Abderrahmane Nitaj,Yanbin Pan, Mengce Zheng.\
+[[PDF](https://eprint.iacr.org/2026/244)]
+
 - **Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith’s Method.**\
 Marius A. Aardal, Diego F. Aranha, Yansong Feng, Yiming Gao, Yanbin Pan.\
-[[PDF](https://eprint.iacr.org/2025/1812)]
+**Eurocrypt 2026** [[PDF](https://eprint.iacr.org/2025/1812)][[CODE](https://github.com/Gym0000/Solving-Quadratic-Forms-with-Coppersmith-Method)]
 
 - **Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory.**\
 Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
