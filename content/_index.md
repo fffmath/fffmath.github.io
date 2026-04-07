@@ -28,7 +28,7 @@ Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan.\
 
 - **On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector.**\
 Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan.\
-**Math. Comp (2026).** [[arXiv](https://arxiv.org/abs/2512.19076)]
+**Math. Comp. (2026)** [[arXiv](https://arxiv.org/abs/2512.19076)]
 
 - **Small public exponent brings more: Improved partial key exposure attacks against RSA.**\
 Yansong Feng, Abderrahmane Nitaj, Yanbin Pan.\
