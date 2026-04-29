@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yansong Feng</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="crt-flicker"></div>
+  <div class="floating-pokeball"></div>
+
+  <main class="container">
+    <section class="dialog-box">
+      <h1 class="typewriter">HELLO! I'M YANSONG FENG ▼</h1>
+
+      <div class="snorlax-inline" title="Shhh... Snorlax is sleeping">
+        <div class="zzz zzz-1">Z</div>
+        <div class="zzz zzz-2">z</div>
+        <div class="zzz zzz-3">z</div>
+
+        <div class="snorlax">
+          <div class="snor-shadow"></div>
+          <div class="snor-ear snor-ear-left"></div>
+          <div class="snor-ear snor-ear-right"></div>
+
+          <div class="snor-body">
+            <div class="snor-highlight"></div>
+            <div class="snor-belly"></div>
+
+            <div class="snor-eye snor-eye-left"></div>
+            <div class="snor-eye snor-eye-right"></div>
+            <div class="snor-blush snor-blush-left"></div>
+            <div class="snor-blush snor-blush-right"></div>
+            <div class="snor-mouth">
+              <div class="snor-tongue"></div>
+            </div>
+
+            <div class="snor-arm snor-arm-left">
+              <div class="snor-claw"></div>
+              <div class="snor-claw"></div>
+              <div class="snor-claw"></div>
+            </div>
+            <div class="snor-arm snor-arm-right">
+              <div class="snor-claw"></div>
+              <div class="snor-claw"></div>
+              <div class="snor-claw"></div>
+            </div>
+          </div>
+
+          <div class="snor-foot snor-foot-left">
+            <div class="snor-toe"></div>
+            <div class="snor-toe"></div>
+            <div class="snor-toe"></div>
+          </div>
+          <div class="snor-foot snor-foot-right">
+            <div class="snor-toe"></div>
+            <div class="snor-toe"></div>
+            <div class="snor-toe"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile">
+      <div class="avatar-frame">
+        <img src="assets/avatar.jpg" alt="Avatar" class="avatar"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+        <div class="pixel-pokeball" style="display:none;"></div>
+      </div>
+      <div class="profile-text">
+        <p class="status">▶ ABOUT ME:</p>
+        <p class="about-text">
+          Hi! I am currently a second-year Ph.D. student under the supervision of
+          <a href="https://mmrc.iss.ac.cn/~yanbinpan/" class="inline-link">Yanbin Pan</a>,
+          and I am expected to graduate in 2027. I also spent one year with the
+          <a href="https://www.cs.au.dk/~orlandi/cryptogroup/" class="inline-link">Crypto Group</a>
+          at Aarhus University, hosted by
+          <a href="https://dfaranha.github.io/" class="inline-link">Diego F. Aranha</a>.
+          My research interests lie primarily in the application of Algorithmic Number Theory
+          and Combinatorics to problems in Cryptography and Theoretical Computer Science.
+          I prefer problems with a strong mathematical structure, such as those with an
+          algebraic or combinatorial flavor. I'm visiting NUS from March 1st to the end of May,
+          hosted by
+          <a href="https://sites.google.com/site/diveshhomepage/" class="inline-link">Divesh Aggarwal</a>.
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/fffmath" class="social-link">GitHub</a>
+          <span class="dot">·</span>
+          <a href="mailto:fengyansong@amss.ac.cn" class="social-link">Email</a>
+        </div>
+      </div>
+    </section>
+
+<section class="card">
+      <h2 class="section-title">
+        <span class="title-main">★ SELECTED PUBLICATIONS</span>
+        <span class="title-links">
+          <a href="https://dblp.org/pid/25/2643-1" target="_blank" class="title-link">[DBLP]</a>
+          <a href="https://scholar.google.com/citations?user=mO_Dkx8AAAAJ" target="_blank" class="title-link">[Scholar]</a>
+        </span>
+      </h2>
+      <ul class="paper-list">
+        <li class="paper-item">
+          <a href="#" class="paper-title">Subset Balancing and Generalized Subset Sum via Lattices</a>
+          <p class="paper-meta">
+            Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan
+            · <span class="venue">arXiv 2026</span>
+          </p>
+          <p class="paper-links">
+            <a href="http://arxiv.org/abs/2604.04656" target="_blank" class="ext-link">[arXiv]</a>
+          </p>
+        </li>
+
+        <li class="paper-item">
+          <a href="#" class="paper-title">Revisit Unravelled Linearization with Erhart (quasi-)Polynomial</a>
+          <p class="paper-meta">
+            Yansong Feng, Yiming Gao, Honggang Hu, Abderrahmane Nitaj, Yanbin Pan, Mengce Zheng
+            · <span class="venue">ePrint 2026</span>
+          </p>
+          <p class="paper-links">
+            <a href="https://eprint.iacr.org/2026/244" target="_blank" class="ext-link">[ePrint]</a>
+          </p>
+        </li>
+
+        <li class="paper-item">
+          <a href="#" class="paper-title">Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith's Method</a>
+          <p class="paper-meta">
+            Marius A. Aardal, Diego F. Aranha, Yansong Feng, Yiming Gao, Yanbin Pan
+            · <span class="venue venue-top">Eurocrypt 2026</span>
+          </p>
+          <p class="paper-links">
+            <a href="https://eprint.iacr.org/2025/1812" target="_blank" class="ext-link">[ePrint]</a>
+            <a href="https://github.com/Gym0000/Solving-Quadratic-Forms-with-Coppersmith-Method" target="_blank" class="ext-link">[Code]</a>
+          </p>
+        </li>
+
+        <li class="paper-item">
+          <a href="#" class="paper-title">On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector</a>
+          <p class="paper-meta">
+            Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan
+            · <span class="venue venue-top">Math. Comp. 2026</span>
+          </p>
+          <p class="paper-links">
+            <a href="https://arxiv.org/abs/2512.19076" target="_blank" class="ext-link">[arXiv]</a>
+          </p>
+        </li>
+
+        <li class="paper-item">
+          <a href="#" class="paper-title">Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory</a>
+          <p class="paper-meta">
+            Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan
+            · <span class="venue venue-top">Crypto 2025</span>
+          </p>
+          <p class="paper-links">
+            <a href="https://eprint.iacr.org/2024/1330" target="_blank" class="ext-link">[ePrint]</a>
+            <a href="https://github.com/fffmath/AsymptoticBounds" target="_blank" class="ext-link">[Code]</a>
+          </p>
+        </li>
+
+        <li class="paper-item">
+          <a href="#" class="paper-title">Small public exponent brings more: Improved partial key exposure attacks against RSA</a>
+          <p class="paper-meta">
+            Yansong Feng, Abderrahmane Nitaj, Yanbin Pan
+            · <span class="venue venue-top">CiC 2024</span>
+          </p>
+          <p class="paper-links">
+            <a href="https://eprint.iacr.org/2024/1329" target="_blank" class="ext-link">[ePrint]</a>
+            <a href="https://github.com/fffmath/MSBsOfPrivateKeyAttack" target="_blank" class="ext-link">[Code]</a>
+          </p>
+        </li>
+
+        <li class="paper-item">
+          <a href="#" class="paper-title">Embedding Integer Lattices as Ideals into Polynomial Rings</a>
+          <p class="paper-meta">
+            Yihang Cheng, Yansong Feng, Yanbin Pan
+            · <span class="venue venue-top">ISSAC 2024</span>
+          </p>
+          <p class="paper-links">
+            <a href="https://eprint.iacr.org/2024/1041" target="_blank" class="ext-link">[ePrint]</a>
+            <a href="https://github.com/fffmath/IdentifyIdealLattice" target="_blank" class="ext-link">[Code]</a>
+          </p>
+        </li>
+
+        <li class="paper-item">
+          <a href="#" class="paper-title">Generalized implicit factorization problem</a>
+          <p class="paper-meta">
+            Yansong Feng, Abderrahmane Nitaj, Yanbin Pan
+            · <span class="venue venue-top">SAC 2023</span>
+          </p>
+          <p class="paper-links">
+            <a href="https://eprint.iacr.org/2023/1562" target="_blank" class="ext-link">[ePrint]</a>
+            <a href="https://github.com/fffmath/gifp" target="_blank" class="ext-link">[Code]</a>
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title"><span class="title-main">★ PROJECTS</span></h2>
+      <div class="project-grid">
+        <a href="https://link.fffmath.com" target="_blank" class="project-item">
+          <h3>🔗 Useful-Link</h3>
+          <p>A cute website containing many useful links for crypto research.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title"><span class="title-main">★ ACTIVITIES</span></h2>
+      <ul class="activity-list">
+        <li>
+          <span class="activity-arrow">▶</span>
+          <a href="trips-talks.html" class="inline-link">Trips &amp; Talks</a>
+          <span class="activity-desc"></span>
+        </li>
+        <li>
+          <span class="activity-arrow">▶</span>
+          <span class="activity-label">External Reviewer:</span>
+          <span class="activity-desc">Asiacrypt, PKC, Africacrypt, IEEE TDSC</span>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-note">© 2026 Yansong Feng · Made with Claude-Opus-4.7</p>
+    </footer>
+  </main>
+</body>
+</html>
