@@ -43,43 +43,41 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body {
-  background-color: var(--bg-color);
+html,
+body {
   color: var(--text);
   font-family: 'VT323', monospace;
   font-size: 20px;
   line-height: 1.6;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+html {
+  background-color: var(--bg-color);
+}
+
+body {
+  background-color: var(--bg-color);
   background-image:
     radial-gradient(circle at 11% 8%, #fff4a8 0 38px, #ffd75c 39px 49px, transparent 50px),
     linear-gradient(rgba(255, 255, 255, 0.18) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.18) 1px, transparent 1px),
     linear-gradient(180deg, #9bdefd 0%, #dcf7ff 34%, #92ded8 54%, #d9edab 76%, #a8d873 100%);
   background-size: auto, 24px 24px, 24px 24px, auto;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .typewriter,
 .section-title,
-.status,
-.activity-label {
+.experience-title,
+.experience-divider {
   font-family: 'Press Start 2P', monospace;
 }
 
 /* ---------- Soft pixel texture and ocean edge ---------- */
 .scanlines {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9998;
-  background: repeating-linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0) 0,
-    rgba(255, 255, 255, 0) 3px,
-    rgba(255, 255, 255, 0.08) 4px
-  );
-  opacity: 0.18;
+  display: none;
 }
 
 .crt-flicker {
@@ -112,38 +110,26 @@ html, body {
     16px -16px 0 rgba(255,255,255,0.72),
     40px -8px 0 rgba(255,255,255,0.72),
     64px 0 0 rgba(255,255,255,0.72);
-  animation: cloud-drift 18s ease-in-out infinite alternate;
 }
 
 .cloud-one { top: 13%; left: 3%; }
-.cloud-two { top: 22%; right: 8%; transform: scale(0.72); animation-delay: -7s; }
-
-@keyframes cloud-drift {
-  from { translate: -8px 0; }
-  to { translate: 18px 0; }
-}
+.cloud-two { top: 22%; right: 8%; transform: scale(0.72); }
 
 .sea-bubble {
   position: absolute;
   border: 3px solid rgba(255,255,255,0.5);
   border-radius: 50%;
-  animation: bubble-float 6s ease-in-out infinite;
 }
 
 .bubble-one { width: 22px; height: 22px; right: 5%; top: 46%; }
-.bubble-two { width: 12px; height: 12px; left: 5%; top: 54%; animation-delay: -2s; }
-.bubble-three { width: 32px; height: 32px; right: 12%; top: 68%; animation-delay: -4s; }
-
-@keyframes bubble-float {
-  0%, 100% { transform: translateY(8px); opacity: 0.35; }
-  50% { transform: translateY(-12px); opacity: 0.8; }
-}
+.bubble-two { width: 12px; height: 12px; left: 5%; top: 54%; }
+.bubble-three { width: 32px; height: 32px; right: 12%; top: 68%; }
 
 /* ---------- 主容器 ---------- */
 .container {
   max-width: 980px;
   margin: 0 auto;
-  padding: 48px 24px 100px;
+  padding: 48px 24px;
   position: relative;
   z-index: 1;
 }
@@ -173,19 +159,12 @@ html, body {
   overflow: hidden;
   border-right: 4px solid var(--accent);
   width: 0;
-  animation:
-    typing 3s steps(25, end) forwards,
-    blink-caret 0.75s step-end infinite;
+  animation: typing 1.8s steps(25, end) forwards;
 }
 
 @keyframes typing {
   from { width: 0; }
   to   { width: 25ch; }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50%      { border-color: var(--accent); }
 }
 
 @keyframes typewriter-fade {
@@ -196,17 +175,17 @@ html, body {
 /* ---------- One-page navigation ---------- */
 .pixel-nav {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
   margin: 0 4px 30px;
   padding: 9px;
-  background: rgba(220, 247, 255, 0.84);
+  background: rgba(220, 247, 255, 0.96);
   border: 3px solid var(--border);
   box-shadow: 5px 6px 0 rgba(23,54,74,0.18);
-  backdrop-filter: blur(8px);
 }
 
 .pixel-nav a {
+  min-height: 44px;
   padding: 11px 7px;
   color: var(--text);
   background: var(--card-bg);
@@ -222,8 +201,7 @@ html, body {
 
 .pixel-nav a:nth-child(1) { box-shadow: 3px 3px 0 var(--grass); }
 .pixel-nav a:nth-child(2) { box-shadow: 3px 3px 0 var(--primary); }
-.pixel-nav a:nth-child(3) { box-shadow: 3px 3px 0 var(--sea); }
-.pixel-nav a:nth-child(4) { box-shadow: 3px 3px 0 #8f72bd; }
+.pixel-nav a:nth-child(3) { box-shadow: 3px 3px 0 #8f72bd; }
 
 .pixel-nav a:hover,
 .pixel-nav a:focus-visible {
@@ -233,29 +211,67 @@ html, body {
 }
 
 /* ============================================
-   个人信息区
+   About profile and experience layout
    ============================================ */
-.profile {
+.about-card {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  column-gap: 32px;
+  row-gap: 0;
+  align-items: start;
+}
+
+.about-content {
+  min-width: 0;
+}
+
+.about-profile {
   display: flex;
-  gap: 32px;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 28px;
-  flex-wrap: wrap;
+  padding-top: 4px;
+}
+
+.profile-identity {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar-frame {
-  width: 140px;
-  height: 140px;
+  width: 156px;
+  height: 208px;
   border: 4px solid var(--wood);
   background: #eaf8da;
   padding: 6px;
   box-shadow: 6px 6px 0 var(--grass);
   flex-shrink: 0;
   image-rendering: pixelated;
-  animation: idle-bob 2.4s ease-in-out infinite;
   /* ★ 新增：让占位精灵球可以绝对定位在内部 */
   position: relative;
   overflow: hidden;
+}
+
+.about-card .current-role-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: var(--border);
+  border-left: 4px solid var(--grass);
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  line-height: 1.6;
+}
+
+.role-separator {
+  color: var(--primary);
+  font-family: 'VT323', monospace;
+  font-size: 18px;
+  line-height: 1;
 }
 
 /* ★ 新增：avatar 未加载时显示的旋转精灵球占位 */
@@ -279,7 +295,6 @@ html, body {
       #222 47%, #222 53%,
       #f4f4f4 53%, #f4f4f4 100%);
   box-shadow: inset -6px -6px 0 -2px rgba(0,0,0,0.25);
-  animation: pokeball-spin 1.4s linear infinite;
   z-index: 0;
 }
 
@@ -291,17 +306,6 @@ html, body {
   background: transparent;
   pointer-events: none;
   z-index: 0;
-}
-
-@keyframes pokeball-spin {
-  0%   { transform: rotate(0deg)   scale(1); }
-  50%  { transform: rotate(180deg) scale(1.05); }
-  100% { transform: rotate(360deg) scale(1); }
-}
-
-@keyframes idle-bob {
-  0%, 100% { transform: translateY(0); }
-  50%      { transform: translateY(-6px); }
 }
 
 .avatar {
@@ -331,21 +335,115 @@ html, body {
       #f4f4f4 52%, #f4f4f4 100%);
 }
 
-.profile-text {
-  flex: 1;
-  min-width: 240px;
-}
-
-.status {
-  color: var(--accent);
-  font-size: 12px;
-  margin-bottom: 12px;
-}
-
-.about-text {
+.research-summary {
   color: var(--text-dim);
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   line-height: 1.7;
+}
+
+.experience {
+  margin: 0;
+}
+
+.visiting-section,
+.about-card > .opportunity-note {
+  grid-column: 1 / -1;
+}
+
+.visiting-section {
+  min-width: 0;
+  margin-top: 22px;
+}
+
+.visiting-section .experience-divider {
+  margin-top: 0;
+}
+
+.experience-title {
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  color: var(--border);
+  border-bottom: 2px dashed color-mix(in srgb, var(--grass) 65%, white);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.experience-list {
+  list-style: none;
+  display: grid;
+  gap: 9px;
+}
+
+.experience-list li {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  color: var(--text-dim);
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.experience-list p {
+  color: inherit;
+}
+
+.experience-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 12px;
+  color: var(--accent);
+  font-size: 9px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.experience-divider::before,
+.experience-divider::after {
+  content: "";
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--sea) 60%, white) 0 8px,
+    transparent 8px 12px
+  );
+}
+
+.experience-divider::before { flex: 0 0 18px; }
+.experience-divider::after { flex: 1; }
+
+.experience-calendar {
+  position: relative;
+  width: 16px;
+  height: 15px;
+  margin-top: 5px;
+  border: 2px solid var(--accent);
+  background:
+    linear-gradient(var(--accent), var(--accent)) 0 3px / 100% 2px no-repeat,
+    linear-gradient(90deg, transparent 0 3px, var(--accent) 3px 5px, transparent 5px 8px, var(--accent) 8px 10px, transparent 10px) 1px 7px / 12px 5px no-repeat;
+}
+
+.experience-calendar::before,
+.experience-calendar::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  width: 2px;
+  height: 5px;
+  background: var(--accent);
+}
+
+.experience-calendar::before { left: 2px; }
+.experience-calendar::after { right: 2px; }
+
+.about-card .opportunity-note {
+  margin-top: 18px;
+  padding-top: 14px;
+  color: #d83f35;
+  border-top: 2px dashed var(--border-soft);
+  font-weight: bold;
+  line-height: 1.6;
 }
 
 .inline-link {
@@ -362,6 +460,13 @@ html, body {
   background: rgba(8, 127, 150, 0.1);
 }
 
+.inline-link:focus-visible {
+  color: var(--link-hover);
+  background: rgba(8, 127, 150, 0.1);
+  outline: 2px dashed var(--primary);
+  outline-offset: 2px;
+}
+
 .social-links {
   margin-top: 12px;
   font-size: 20px;
@@ -371,7 +476,13 @@ html, body {
   gap: 6px;
 }
 
+.about-profile .social-links {
+  justify-content: center;
+  margin-top: 12px;
+}
+
 .social-link {
+  min-height: 44px;
   color: #fff;
   text-decoration: none;
   background: var(--accent);
@@ -379,9 +490,12 @@ html, body {
   box-shadow: 3px 3px 0 var(--primary);
   transition: all 0.15s;
   padding: 3px 10px;
+  display: inline-flex;
+  align-items: center;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus-visible {
   color: #fff;
   background: var(--link-hover);
   transform: translate(-2px, -2px);
@@ -421,22 +535,19 @@ html, body {
   );
 }
 
-.profile-card { --card-accent: var(--grass); }
+.about-card { --card-accent: var(--grass); }
 .publications-card { --card-accent: var(--primary); }
-.activity-card { --card-accent: var(--sea); }
 .projects-card { --card-accent: #8f72bd; }
 
 section[id] {
   scroll-margin-top: 24px;
 }
 
-.content-group,
-.activity-group {
+.content-group {
   position: relative;
 }
 
-.content-group + .content-group,
-.activity-group + .activity-group {
+.content-group + .content-group {
   margin-top: 30px;
 }
 
@@ -453,13 +564,6 @@ section[id] {
 
 #manuscripts { --subsection-accent: var(--secondary); }
 #peer-reviewed { --subsection-accent: var(--primary); }
-#visiting { --subsection-accent: var(--grass); }
-#talks { --subsection-accent: var(--sea); }
-#service { --subsection-accent: var(--accent); }
-
-#service .activity-list {
-  padding: 8px 10px 2px;
-}
 
 /* ============================================
    ★★★ 区块标题（已修复对齐） ★★★
@@ -667,38 +771,6 @@ section[id] {
 }
 
 /* ============================================
-   活动列表
-   ============================================ */
-.activity-list {
-  list-style: none;
-}
-
-.activity-list li {
-  padding: 8px 0;
-  color: var(--text-dim);
-  font-size: 19px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 8px;
-}
-
-.activity-arrow {
-  color: var(--secondary);
-  font-size: 16px;
-}
-
-.activity-label {
-  color: var(--accent);
-  font-size: 11px;
-  margin-right: 4px;
-}
-
-.activity-desc {
-  color: var(--text-dim);
-}
-
-/* ============================================
    页脚
    ============================================ */
 .footer {
@@ -750,7 +822,6 @@ section[id] {
       var(--border) 45%, var(--border) 55%,
       #f4f4f4 55%, #f4f4f4 100%);
   z-index: 20;
-  animation: bounce-ball 1.6s infinite ease-in-out;
   cursor: pointer;
 }
 
@@ -765,11 +836,6 @@ section[id] {
   border: 2px solid var(--border);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-}
-
-@keyframes bounce-ball {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50%      { transform: translateY(-20px) rotate(180deg); }
 }
 
 /* ============================================
@@ -793,12 +859,6 @@ section[id] {
   object-fit: contain;
   image-rendering: pixelated;
   filter: drop-shadow(3px 4px 0 rgba(23,54,74,0.2));
-  animation: mascot-breathe 3.8s ease-in-out infinite;
-}
-
-@keyframes mascot-breathe {
-  0%, 100% { transform: translateY(1px) scale(1); }
-  50% { transform: translateY(-1px) scale(1.018); }
 }
 
 /* ============================================
@@ -1090,98 +1150,9 @@ section[id] {
 }
 
 /* ============================================
-   Visits and talks
-   ============================================ */
-
-.trip-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.trip-list > li {
-  position: relative;
-  padding: 12px 14px 12px 34px;
-  margin-bottom: 10px;
-  color: var(--text-dim);
-  font-size: 19px;
-  line-height: 1.6;
-  background: linear-gradient(90deg, rgba(114,184,92,0.16), rgba(255,255,255,0.35));
-  border: 2px solid rgba(82,145,76,0.34);
-  box-shadow: 3px 3px 0 rgba(82,145,76,0.16);
-}
-
-.trip-list > li:last-child { margin-bottom: 0; }
-
-.trip-list > li::before {
-  content: "▸";
-  position: absolute;
-  left: 12px;
-  top: 14px;
-  color: #4d913f;
-  font-size: 14px;
-}
-
-.talk-block {
-  margin-bottom: 22px;
-  padding: 16px 18px;
-  background: linear-gradient(135deg, #e4f7ed, #e1f5fb);
-  border: 2px solid rgba(23,143,167,0.4);
-  border-left: 7px solid var(--sea);
-  box-shadow: 4px 4px 0 rgba(23,143,167,0.16);
-}
-
-.talk-block:last-child { margin-bottom: 0; }
-
-.talk-block:nth-of-type(2) {
-  background: linear-gradient(135deg, #fff3c9, #f5f5d5);
-  border-color: rgba(229,165,46,0.46);
-  border-left-color: var(--primary);
-  box-shadow: 4px 4px 0 rgba(229,165,46,0.18);
-}
-
-.talk-block:nth-of-type(3) {
-  background: linear-gradient(135deg, #fce7dd, #fff3d2);
-  border-color: rgba(239,106,98,0.38);
-  border-left-color: var(--secondary);
-}
-
-.talk-title {
-  color: var(--border);
-  font-weight: bold;
-  font-size: 19px;
-  margin-bottom: 8px;
-}
-
-.talk-venues {
-  list-style: none;
-  padding-left: 0;
-}
-
-.talk-venues li {
-  position: relative;
-  padding: 4px 0 4px 22px;
-  color: var(--text-dim);
-  font-size: 17px;
-}
-
-.talk-venues li::before {
-  content: "♦";
-  position: absolute;
-  left: 4px;
-  top: 4px;
-  color: var(--secondary);
-  font-size: 12px;
-}
-
-.talk-date {
-  color: #a26818;
-  font-weight: bold;
-}
-
-/* ============================================
    Responsive layout
    ============================================ */
-@media (max-width: 700px) {
+@media (max-width: 820px) {
   .container { padding-top: 34px; }
   .dialog-box { margin-inline: 4px; padding-right: 100px; }
   .mascot-inline { width: 78px; height: 96px; right: 15px; }
@@ -1199,16 +1170,33 @@ section[id] {
     max-width: 100%;
     border-right: 3px solid var(--primary);
     width: 0;
-    animation:
-      typing 2.4s steps(25, end) forwards,
-      blink-caret 0.75s step-end infinite;
+    animation: typing 1.8s steps(25, end) forwards;
   }
 
   .pixel-nav {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .about-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .about-profile,
+  .about-content,
+  .visiting-section,
+  .about-card > .opportunity-note {
+    grid-column: 1;
+  }
+
   .card { padding: 20px 20px; }
+  .about-profile {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 0;
+  }
+  .about-profile .social-links { margin-top: 0; }
   .paper-item { padding-right: 4px; }
 }
 
@@ -1229,13 +1217,11 @@ section[id] {
   .title-main { font-size: 12px; }
   .title-links { font-size: 8px; }
   .container { padding: 20px 14px 60px; }
-  .profile {
-    gap: 20px;
+  .about-profile {
     flex-direction: column;
-    align-items: stretch;
+    gap: 12px;
   }
-  .avatar-frame { align-self: center; }
-  .profile-text { min-width: 0; width: 100%; }
+  .profile-identity { align-self: center; }
   .dialog-box {
     padding: 18px 82px 18px 18px;
     min-height: 92px;
@@ -1271,6 +1257,10 @@ section[id] {
     font-size: 8px;
   }
 
+  .pixel-nav a:last-child {
+    grid-column: 1 / -1;
+  }
+
   .card {
     padding: 18px 14px;
     box-shadow:
@@ -1288,16 +1278,6 @@ section[id] {
   .paper-item::after { left: 8px; }
   .paper-title { font-size: 18px; }
   .paper-meta { font-size: 16px; }
-
-  .trip-list > li {
-    padding: 11px 10px 11px 28px;
-    font-size: 18px;
-  }
-  .trip-list > li::before { left: 9px; top: 13px; }
-
-  .talk-block { padding: 14px 12px; }
-  .talk-venues li { padding-left: 18px; }
-  .talk-date { display: block; margin-bottom: 2px; }
 
   .floating-pokeball {
     width: 34px;

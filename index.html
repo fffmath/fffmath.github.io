@@ -22,54 +22,124 @@
   </div>
   <div class="floating-pokeball"></div>
 
-  <main class="container">
-    <header class="dialog-box" id="top">
+  <main class="container" id="top">
+    <header class="dialog-box">
       <h1 class="typewriter">HELLO! I'M YANSONG FENG ▼</h1>
 
       <div class="mascot-inline" title="Shhh... the capybara is sleeping" aria-hidden="true">
-        <img src="assets/images/sleepy-capybara.webp" alt="" class="mascot-sprite" />
+        <img src="assets/images/sleepy-capybara-small.png" alt="" class="mascot-sprite"
+             width="168" height="224" decoding="async" />
       </div>
     </header>
 
     <nav class="pixel-nav" aria-label="Page sections">
       <a href="#about">ABOUT</a>
       <a href="#publications">PUBLICATIONS</a>
-      <a href="#activity">ACTIVITY</a>
       <a href="#projects">PROJECTS</a>
     </nav>
 
-    <section class="profile card profile-card" id="about">
-      <div class="avatar-frame">
-        <img src="assets/avatar.jpg" alt="Avatar" class="avatar"
-             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
-        <div class="pixel-pokeball" style="display:none;"></div>
-      </div>
-      <div class="profile-text">
-        <p class="status">▶ ABOUT ME:</p>
-        <div class="about-text">
-          <p>
-            I am a Ph.D. student advised by
-            <a href="https://mmrc.iss.ac.cn/~yanbinpan/" class="inline-link">Yanbin Pan</a>
-            and an AI4Crypto research intern at
-            <a href="https://www.minimax.io/" class="inline-link">MiniMax</a>.
-            My research focuses on algorithmic number theory and combinatorics,
-            with applications to cryptography and theoretical computer science.
-            Recently, I am also interested in AI for security and AI-assisted formal verification.
-          </p>
-
-          <p>
-            <strong style="color: red;">
-              I expect to graduate in 2027 and am seeking full-time opportunities
-              in industry or as a postdoctoral researcher. Please feel free to contact me!
-            </strong>
-          </p>
+    <section class="card about-card" id="about" aria-label="About">
+      <aside class="about-profile" aria-label="Profile">
+        <div class="profile-identity">
+          <div class="avatar-frame">
+            <img src="assets/avatar-small.jpg" alt="Portrait of Yansong Feng" class="avatar"
+                 width="315" height="420" decoding="async"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"/>
+            <div class="pixel-pokeball" style="display:none;"></div>
+          </div>
         </div>
+
         <div class="social-links">
           <a href="https://github.com/fffmath" class="social-link">GitHub</a>
           <span class="dot">·</span>
           <a href="mailto:fengyansong@amss.ac.cn" class="social-link">Email</a>
         </div>
+      </aside>
+
+      <div class="about-content">
+        <p class="current-role-line">
+          <span>Ph.D. @ AMSS</span>
+          <span class="role-separator" aria-hidden="true">·</span>
+          <span>Intern @ MiniMax</span>
+        </p>
+
+        <p class="research-summary">
+          My research focuses on algorithmic number theory and combinatorics,
+          with applications to cryptography and theoretical computer science.
+          Recently, I am also interested in AI for security and AI-assisted formal verification.
+        </p>
+
+        <section class="experience">
+          <h2 class="experience-title" id="experience-title">EDUCATION &amp; WORK EXPERIENCE</h2>
+          <ul class="experience-list current-experience-list">
+            <li>
+              <span class="experience-calendar" aria-hidden="true"></span>
+              <p>
+                <strong><time datetime="2022-08">2022/08</time> – Present.</strong>
+                <strong>Ph.D. Student,</strong> Academy of Mathematics and Systems Science (AMSS),
+                Chinese Academy of Sciences (CAS). Academic Supervisor:
+                <a href="https://mmrc.iss.ac.cn/~yanbinpan/" class="inline-link">Yanbin Pan</a>.
+              </p>
+            </li>
+            <li>
+              <span class="experience-calendar" aria-hidden="true"></span>
+              <p>
+                <strong><time datetime="2026-08">2026/08</time> – Present.</strong>
+                <strong>AI4Crypto Research Intern,</strong>
+                <a href="https://www.minimax.io/" class="inline-link">MiniMax</a>.
+              </p>
+            </li>
+          </ul>
+        </section>
       </div>
+
+      <section class="visiting-section" aria-labelledby="visiting-experience-title">
+        <h3 class="experience-divider" id="visiting-experience-title"><span>VISITING EXPERIENCE</span></h3>
+
+        <ul class="experience-list visiting-experience-list">
+          <li>
+            <span class="experience-calendar" aria-hidden="true"></span>
+            <p>
+              <strong><time datetime="2024-06">2024/06</time> – <time datetime="2024-09">2024/09</time>.</strong>
+              The Hong Kong Polytechnic University (PolyU).
+              Hosted by
+              <a href="https://web.comp.polyu.edu.hk/mhaau/" class="inline-link">Man Ho Allen Au</a>.
+            </p>
+          </li>
+          <li>
+            <span class="experience-calendar" aria-hidden="true"></span>
+            <p>
+              <strong><time datetime="2024-10">2024/10</time> – <time datetime="2025-10">2025/10</time>.</strong>
+              <a href="https://www.cs.au.dk/~orlandi/cryptogroup/" class="inline-link">Crypto Group</a>,
+              Aarhus University. Hosted by
+              <a href="https://dfaranha.github.io/" class="inline-link">Diego F. Aranha</a>.
+            </p>
+          </li>
+          <li>
+            <span class="experience-calendar" aria-hidden="true"></span>
+            <p>
+              <strong><time datetime="2025-09">2025/09</time> (one week).</strong>
+              Laboratory of Mathematics Nicolas Oresme,
+              University of Caen Normandy, France. Hosted by
+              <a href="https://nitaj.users.lmno.cnrs.fr/" class="inline-link">Abderrahmane Nitaj</a>.
+            </p>
+          </li>
+          <li>
+            <span class="experience-calendar" aria-hidden="true"></span>
+            <p>
+              <strong><time datetime="2026-03">2026/03</time> – <time datetime="2026-06">2026/06</time>.</strong>
+              National University of Singapore (NUS).
+              Hosted by
+              <a href="https://sites.google.com/site/diveshhomepage/" class="inline-link">Divesh Aggarwal</a>.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <p class="opportunity-note">
+        I expect to graduate in 2027 and am seeking full-time opportunities
+        in industry or as a postdoctoral researcher. Please feel free to contact me!
+      </p>
     </section>
 
     <section class="card publications-card" id="publications">
@@ -203,100 +273,6 @@
             <a href="https://github.com/fffmath/gifp" target="_blank" class="ext-link">[Code]</a>
           </p>
         </li>
-        </ul>
-      </section>
-    </section>
-
-    <section class="card activity-card" id="activity">
-      <h2 class="section-title"><span class="title-main">★ ACTIVITY</span></h2>
-
-      <section class="activity-group" id="visiting">
-        <h3 class="subsection-title">VISITING EXPERIENCE</h3>
-        <ul class="trip-list">
-        <li>
-          Visiting <b>National University of Singapore (NUS)</b> from <b>March 2026 to May 2026</b>,
-          hosted by
-          <a href="https://sites.google.com/site/diveshhomepage/" class="inline-link" target="_blank">Divesh Aggarwal</a>.
-        </li>
-        <li>
-          Visiting the <b>Laboratory of Mathematics Nicolas Oresme</b>, University of Caen Normandy, France,
-          for one week in <b>September 2025</b>, hosted by
-          <a href="https://nitaj.users.lmno.cnrs.fr/" class="inline-link" target="_blank">Abderrahmane Nitaj</a>.
-        </li>
-        <li>
-          Visiting the
-          <a href="https://www.cs.au.dk/~orlandi/cryptogroup/" class="inline-link" target="_blank">Crypto Group</a>
-          at Aarhus University from <b>October 2024 to October 2025</b>, hosted by
-          <a href="https://dfaranha.github.io/" class="inline-link" target="_blank">Diego F. Aranha</a>.
-        </li>
-        <li>
-          Visiting <b>The Hong Kong Polytechnic University (PolyU)</b> from <b>June 2024 to September 2024</b>,
-          hosted by
-          <a href="https://web.comp.polyu.edu.hk/mhaau/" class="inline-link" target="_blank">Man Ho Allen Au</a>.
-        </li>
-        </ul>
-      </section>
-
-      <section class="activity-group" id="talks">
-        <h3 class="subsection-title">TALKS</h3>
-
-      <div class="talk-block">
-        <div class="talk-title">Solving Polynomial Equations with Newton Polytope</div>
-        <ul class="talk-venues">
-          <li>
-            <span class="talk-date">[Aug 19, 2025]</span>
-            Crypto, University of California, Santa Barbara, United States
-            <a href="assets/pdf/slides/crypto25.pptx" class="ext-link" target="_blank">[Slides]</a>
-          </li>
-          <li>
-            <span class="talk-date">[Nov 21, 2024]</span>
-            Crypto Group Seminar, Aarhus University, Denmark
-            <a href="assets/pdf/slides/seminar1121.pdf" class="ext-link" target="_blank">[Slides]</a>
-          </li>
-          <li>
-            <span class="talk-date">[Nov 15, 2024]</span>
-            NordiCrypt, University of Southern Denmark, Denmark
-            <a href="assets/pdf/slides/nordicrypt24.pdf" class="ext-link" target="_blank">[Slides]</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="talk-block">
-        <div class="talk-title">Solving Modular Linear Equations via Automated Coppersmith and its Applications</div>
-        <ul class="talk-venues">
-          <li>
-            <span class="talk-date">[Dec 14, 2024]</span>
-            Inscrypt, Yulongwan Resort, China
-            <a href="assets/pdf/slides/inscrypt24.pdf" class="ext-link" target="_blank">[Slides]</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="talk-block">
-        <div class="talk-title">Generalized Implicit Factorization Problem</div>
-        <ul class="talk-venues">
-          <li>
-            <span class="talk-date">[Dec 24, 2023]</span>
-            AI for Math 理论探索与工程应用研讨会, Institute of Automation, CAS, China
-            <a href="assets/pdf/slides/ai4math23.pdf" class="ext-link" target="_blank">[Slides]</a>
-          </li>
-          <li>
-            <span class="talk-date">[Aug 18, 2023]</span>
-            Selected Areas in Cryptography, University of New Brunswick, Canada
-            <a href="assets/pdf/slides/sac23.pdf" class="ext-link" target="_blank">[Slides]</a>
-          </li>
-        </ul>
-      </div>
-      </section>
-
-      <section class="activity-group" id="service">
-        <h3 class="subsection-title">SERVICE</h3>
-        <ul class="activity-list">
-          <li>
-            <span class="activity-arrow">▶</span>
-            <span class="activity-label">External Reviewer:</span>
-            <span class="activity-desc">Asiacrypt, PKC, Africacrypt, IEEE TDSC</span>
-          </li>
         </ul>
       </section>
     </section>
