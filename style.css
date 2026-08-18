@@ -31,6 +31,14 @@
   --sea: #178fa7;
   --sand: #f5d98a;
 
+  --master-purple: #7654a4;
+  --master-purple-dark: #4f3a72;
+  --master-pink: #e575b5;
+  --premier-red: #c75b5c;
+  --achievement-gold: #d29b2b;
+  --ball-ink: #29343d;
+  --ball-shell: #fcfcf8;
+
   --snor-body: #3f7078;
   --snor-body-dark: #294f59;
   --snor-body-light: #66949a;
@@ -562,8 +570,16 @@ section[id] {
   line-height: 1.5;
 }
 
-#manuscripts { --subsection-accent: var(--secondary); }
-#peer-reviewed { --subsection-accent: var(--primary); }
+#manuscripts { --subsection-accent: var(--master-purple); }
+#peer-reviewed { --subsection-accent: var(--achievement-gold); }
+
+#manuscripts .subsection-title {
+  color: var(--master-purple-dark);
+}
+
+#manuscripts .venue {
+  color: #655078;
+}
 
 /* ============================================
    ★★★ 区块标题（已修复对齐） ★★★
@@ -645,7 +661,7 @@ section[id] {
       #222 45%, #222 55%,
       #f4f4f4 55%, #f4f4f4 100%);
   box-shadow: inset 0 0 0 2px #222;
-  opacity: 0.72;
+  opacity: 0.88;
   transition: opacity 0.15s;
 }
 
@@ -659,7 +675,7 @@ section[id] {
   background: #fff;
   border: 2px solid #222;
   border-radius: 50%;
-  opacity: 0.72;
+  opacity: 0.88;
   transition: opacity 0.15s;
 }
 
@@ -675,6 +691,47 @@ section[id] {
 .paper-item:hover {
   background: rgba(114, 184, 92, 0.08);
   transform: translateX(2px);
+}
+
+/* Master Ball: manuscripts still in progress. */
+#manuscripts .paper-item::before {
+  background:
+    radial-gradient(circle at 28% 29%, var(--master-pink) 0 2px, transparent 2.3px),
+    radial-gradient(circle at 72% 29%, var(--master-pink) 0 2px, transparent 2.3px),
+    linear-gradient(to bottom,
+      var(--master-purple) 0 44%,
+      var(--ball-ink) 44% 56%,
+      #f4effb 56% 100%);
+  box-shadow: inset 0 0 0 2px var(--ball-ink);
+}
+
+#manuscripts .paper-item::after {
+  background: #fff;
+  border-color: var(--ball-ink);
+}
+
+#manuscripts .paper-item:hover {
+  background: rgba(118, 84, 164, 0.08);
+}
+
+/* Premier Ball: a white shell with a small celebratory red ring. */
+#peer-reviewed .paper-item::before {
+  background:
+    linear-gradient(to bottom,
+      var(--ball-shell) 0 42%,
+      var(--premier-red) 42% 58%,
+      #eef0ec 58% 100%);
+  box-shadow: inset 0 0 0 2px #334851;
+}
+
+#peer-reviewed .paper-item::after {
+  background: #fff;
+  border-color: var(--premier-red);
+  box-shadow: 0 0 0 1px #334851;
+}
+
+#peer-reviewed .paper-item:hover {
+  background: rgba(210, 155, 43, 0.09);
 }
 
 @keyframes pokeball-wiggle {
