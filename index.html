@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="scanlines"></div>
@@ -20,7 +21,7 @@
     <span class="sea-bubble bubble-two"></span>
     <span class="sea-bubble bubble-three"></span>
   </div>
-  <div class="floating-pokeball"></div>
+  <div class="floating-pokeball" aria-hidden="true"></div>
 
   <main class="container" id="top">
     <header class="dialog-box">
@@ -51,7 +52,7 @@
 
         <nav class="social-links" aria-label="Contact links">
           <a href="https://github.com/fffmath" class="social-link">GitHub</a>
-          <span class="dot">·</span>
+          <span class="dot" aria-hidden="true">·</span>
           <a href="mailto:fengyansong@amss.ac.cn" class="social-link">Email</a>
         </nav>
       </aside>
@@ -156,52 +157,52 @@
         <h3 class="subsection-title">MANUSCRIPTS</h3>
         <ul class="paper-list">
           <li class="paper-item">
-            <a class="paper-title">Exact CVP Is NP-Complete for Principal Cyclotomic Ideals</a>
+            <h4 class="paper-title">Exact CVP Is NP-Complete for Principal Cyclotomic Ideals</h4>
             <p class="paper-meta">
               Jiaqi Liu, Yansong Feng, Yanbin Pan
-            </p>
-            <p class="paper-links">
-              <a href="https://eprint.iacr.org/2026/1793" target="_blank" class="ext-link">[ePrint]</a>
+              <span class="paper-links">
+                <a href="https://eprint.iacr.org/2026/1793" target="_blank" class="ext-link">[ePrint]</a>
+              </span>
             </p>
           </li>
 
           <li class="paper-item">
-            <a class="paper-title">Jacobi Signatures, Revisited</a>
+            <h4 class="paper-title">Jacobi Signatures, Revisited</h4>
             <p class="paper-meta">
               Yansong Feng
-            </p>
-            <p class="paper-links">
-              <a href="https://eprint.iacr.org/2026/1726" target="_blank" class="ext-link">[ePrint]</a>
+              <span class="paper-links">
+                <a href="https://eprint.iacr.org/2026/1726" target="_blank" class="ext-link">[ePrint]</a>
+              </span>
             </p>
           </li>
 
           <li class="paper-item">
-            <a class="paper-title">Solving the Shortest Vector Problem in 2<sup>0.7314n+o(n)</sup> Time via Discrete Gaussian Sampling on Superlattices</a>
+            <h4 class="paper-title">Solving the Shortest Vector Problem in 2<sup>0.7314n+o(n)</sup> Time via Discrete Gaussian Sampling on Superlattices</h4>
             <p class="paper-meta">
               Yiming Gao, Yansong Feng, Honggang Hu
-            </p>
-            <p class="paper-links">
-              <a href="https://eprint.iacr.org/2026/1587" target="_blank" class="ext-link">[ePrint]</a>
+              <span class="paper-links">
+                <a href="https://eprint.iacr.org/2026/1587" target="_blank" class="ext-link">[ePrint]</a>
+              </span>
             </p>
           </li>
 
           <li class="paper-item">
-            <a class="paper-title">Subset Balancing and Generalized Subset Sum via Lattices</a>
+            <h4 class="paper-title">Subset Balancing and Generalized Subset Sum via Lattices</h4>
             <p class="paper-meta">
               Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan
-            </p>
-            <p class="paper-links">
-              <a href="https://arxiv.org/abs/2604.04656" target="_blank" class="ext-link">[arXiv]</a>
+              <span class="paper-links">
+                <a href="https://arxiv.org/abs/2604.04656" target="_blank" class="ext-link">[arXiv]</a>
+              </span>
             </p>
           </li>
 
           <li class="paper-item">
-            <a class="paper-title">Revisit Unravelled Linearization with Ehrhart (quasi-)Polynomial</a>
+            <h4 class="paper-title">Revisit Unravelled Linearization with Ehrhart (quasi-)Polynomial</h4>
             <p class="paper-meta">
               Yansong Feng, Yiming Gao, Honggang Hu, Abderrahmane Nitaj, Yanbin Pan, Mengce Zheng
-            </p>
-            <p class="paper-links">
-              <a href="https://eprint.iacr.org/2026/244" target="_blank" class="ext-link">[ePrint]</a>
+              <span class="paper-links">
+                <a href="https://eprint.iacr.org/2026/244" target="_blank" class="ext-link">[ePrint]</a>
+              </span>
             </p>
           </li>
         </ul>
@@ -211,84 +212,84 @@
         <h3 class="subsection-title">PEER-REVIEWED PUBLICATIONS</h3>
         <ul class="paper-list">
         <li class="paper-item">
-          <a class="paper-title">New Asymptotic Results on Predicting Polynomial Congruential Generators</a>
+          <h4 class="paper-title">New Asymptotic Results on Predicting Polynomial Congruential Generators</h4>
           <p class="paper-meta">
             Yansong Feng, Abderrahmane Nitaj, Yanbin Pan, Mengce Zheng
             · <span class="venue venue-top">ASIACRYPT 2026</span>
-          </p>
-          <p class="paper-links">
-            <a href="https://eprint.iacr.org/2025/2044" target="_blank" class="ext-link">[ePrint]</a>
+            <span class="paper-links">
+              <a href="https://eprint.iacr.org/2025/2044" target="_blank" class="ext-link">[ePrint]</a>
+            </span>
           </p>
         </li>
 
         <li class="paper-item">
-          <a class="paper-title">Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith's Method</a>
+          <h4 class="paper-title">Better Bounds for Finding Fixed-Degree Isogenies via Coppersmith's Method</h4>
           <p class="paper-meta">
             Marius A. Aardal, Diego F. Aranha, Yansong Feng, Yiming Gao, Yanbin Pan
             · <span class="venue venue-top">EUROCRYPT 2026</span>
-          </p>
-          <p class="paper-links">
-            <a href="https://eprint.iacr.org/2025/1812" target="_blank" class="ext-link">[ePrint]</a>
-            <a href="https://github.com/Gym0000/Solving-Quadratic-Forms-with-Coppersmith-Method" target="_blank" class="ext-link">[Code]</a>
+            <span class="paper-links">
+              <a href="https://eprint.iacr.org/2025/1812" target="_blank" class="ext-link">[ePrint]</a>
+              <a href="https://github.com/Gym0000/Solving-Quadratic-Forms-with-Coppersmith-Method" target="_blank" class="ext-link">[Code]</a>
+            </span>
           </p>
         </li>
 
         <li class="paper-item">
-          <a class="paper-title">On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector</a>
+          <h4 class="paper-title">On Factoring and Power Divisor Problems via Rank-3 Lattices and the Second Vector</h4>
           <p class="paper-meta">
             Yiming Gao, Yansong Feng, Honggang Hu, Yanbin Pan
             · <span class="venue venue-top">Math. Comp. 2026</span>
-          </p>
-          <p class="paper-links">
-            <a href="https://arxiv.org/abs/2512.19076" target="_blank" class="ext-link">[arXiv]</a>
+            <span class="paper-links">
+              <a href="https://arxiv.org/abs/2512.19076" target="_blank" class="ext-link">[arXiv]</a>
+            </span>
           </p>
         </li>
 
         <li class="paper-item">
-          <a class="paper-title">Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory</a>
+          <h4 class="paper-title">Computing Asymptotic Bounds for Small Roots in Coppersmith's Method via Sumset Theory</h4>
           <p class="paper-meta">
             Yansong Feng, Hengyi Luo, Qiyuan Chen, Abderrahmane Nitaj, Yanbin Pan
             · <span class="venue venue-top">CRYPTO 2025</span>
-          </p>
-          <p class="paper-links">
-            <a href="https://eprint.iacr.org/2024/1330" target="_blank" class="ext-link">[ePrint]</a>
-            <a href="https://github.com/fffmath/AsymptoticBounds" target="_blank" class="ext-link">[Code]</a>
+            <span class="paper-links">
+              <a href="https://eprint.iacr.org/2024/1330" target="_blank" class="ext-link">[ePrint]</a>
+              <a href="https://github.com/fffmath/AsymptoticBounds" target="_blank" class="ext-link">[Code]</a>
+            </span>
           </p>
         </li>
 
         <li class="paper-item">
-          <a class="paper-title">Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA</a>
+          <h4 class="paper-title">Small Public Exponent Brings More: Improved Partial Key Exposure Attacks against RSA</h4>
           <p class="paper-meta">
             Yansong Feng, Abderrahmane Nitaj, Yanbin Pan
             · <span class="venue venue-top">CiC 2024</span>
-          </p>
-          <p class="paper-links">
-            <a href="https://eprint.iacr.org/2024/1329" target="_blank" class="ext-link">[ePrint]</a>
-            <a href="https://github.com/fffmath/MSBsOfPrivateKeyAttack" target="_blank" class="ext-link">[Code]</a>
+            <span class="paper-links">
+              <a href="https://eprint.iacr.org/2024/1329" target="_blank" class="ext-link">[ePrint]</a>
+              <a href="https://github.com/fffmath/MSBsOfPrivateKeyAttack" target="_blank" class="ext-link">[Code]</a>
+            </span>
           </p>
         </li>
 
         <li class="paper-item">
-          <a class="paper-title">Embedding Integer Lattices as Ideals into Polynomial Rings</a>
+          <h4 class="paper-title">Embedding Integer Lattices as Ideals into Polynomial Rings</h4>
           <p class="paper-meta">
             Yihang Cheng, Yansong Feng, Yanbin Pan
             · <span class="venue venue-top">ISSAC 2024</span>
-          </p>
-          <p class="paper-links">
-            <a href="https://eprint.iacr.org/2024/1041" target="_blank" class="ext-link">[ePrint]</a>
-            <a href="https://github.com/fffmath/IdentifyIdealLattice" target="_blank" class="ext-link">[Code]</a>
+            <span class="paper-links">
+              <a href="https://eprint.iacr.org/2024/1041" target="_blank" class="ext-link">[ePrint]</a>
+              <a href="https://github.com/fffmath/IdentifyIdealLattice" target="_blank" class="ext-link">[Code]</a>
+            </span>
           </p>
         </li>
 
         <li class="paper-item">
-          <a class="paper-title">Generalized Implicit Factorization Problem</a>
+          <h4 class="paper-title">Generalized Implicit Factorization Problem</h4>
           <p class="paper-meta">
             Yansong Feng, Abderrahmane Nitaj, Yanbin Pan
             · <span class="venue venue-top">SAC 2023</span>
-          </p>
-          <p class="paper-links">
-            <a href="https://eprint.iacr.org/2023/1562" target="_blank" class="ext-link">[ePrint]</a>
-            <a href="https://github.com/fffmath/gifp" target="_blank" class="ext-link">[Code]</a>
+            <span class="paper-links">
+              <a href="https://eprint.iacr.org/2023/1562" target="_blank" class="ext-link">[ePrint]</a>
+              <a href="https://github.com/fffmath/gifp" target="_blank" class="ext-link">[Code]</a>
+            </span>
           </p>
         </li>
         </ul>
