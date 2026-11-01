@@ -373,6 +373,7 @@ body {
 }
 
 .visiting-section,
+.service-section,
 .about-card > .opportunity-note {
   grid-column: 1 / -1;
 }
@@ -384,6 +385,34 @@ body {
 
 .visiting-section .experience-divider {
   margin-top: 0;
+}
+
+.service-section {
+  min-width: 0;
+}
+
+.service-list {
+  display: grid;
+  gap: 6px;
+  padding-left: 26px;
+  color: var(--text-dim);
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+.service-list > div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.service-list dt {
+  color: var(--text);
+  font-weight: bold;
+}
+
+.service-list dt::after {
+  content: ":";
 }
 
 .experience-title {
@@ -630,6 +659,33 @@ section[id] {
 
 #manuscripts .venue {
   color: #655078;
+}
+
+/* All manuscripts share one list style; AI contribution is noted once. */
+.publications-card .ai-contribution-note {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 10px 0 6px;
+  border-top: 2px dashed var(--border-soft);
+  color: var(--master-purple-dark);
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.ai-contribution-note > span {
+  flex-shrink: 0;
+}
+
+.ai-paper-list .paper-links {
+  flex-wrap: wrap;
+  max-width: 100%;
+  white-space: normal;
+}
+
+.ai-paper-list .ext-link {
+  white-space: nowrap;
 }
 
 /* ============================================
@@ -1323,6 +1379,7 @@ section[id] {
   .about-profile,
   .about-content,
   .visiting-section,
+  .service-section,
   .about-card > .opportunity-note {
     grid-column: 1;
   }
